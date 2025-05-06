@@ -1,11 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite + React + TS</title>
+  <title>Sizebay</title>
+
+  <!-- Favicon inicial -->
+  <link id="favicon" rel="icon" type="image/svg+xml" href="./src/assets/five.svg" />
+
+  <!-- Script para alternar os ícones -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Variáveis para os ícones e títulos
+      const favicon = document.getElementById("favicon");
+      const titles = ["Get It Right", "Sizebay",];
+      const favicons = [
+        "./src/assets/five.svg",  // Favicon 1
+        "./src/assets/five2.png"  // Favicon 2
+      ];
+
+      let currentIndex = 0;  // Inicia com o primeiro ícone e título
+
+      // Função para alternar o favicon e o título
+      function toggleFaviconAndTitle() {
+        currentIndex = (currentIndex + 1) % 2; // Alterna entre 0 e 1
+        favicon.setAttribute("href", favicons[currentIndex]);  // Atualiza o favicon
+        document.title = titles[currentIndex];  // Atualiza o título da página
+      }
+
+      // Chama a função a cada 3 segundos para alternar
+      setInterval(toggleFaviconAndTitle, 10000);
+    });
+  </script>
 </head>
 
 <body>
