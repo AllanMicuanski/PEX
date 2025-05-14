@@ -6,6 +6,7 @@ import Services from './sections/services/Services';
 import Contact from './sections/contact/Contact';
 import Footer from './components/footer/Footer';
 import TapeRight from './components/tape-right/TapeRight'
+import TapeLeft from './components/tape-left/TapeLeft';
 
 function App() {
   return (
