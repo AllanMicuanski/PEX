@@ -45,3 +45,12 @@
   color: #60a5fa;
   text-decoration: underline;
 }
+
+.about-section img {
+  border-radius: 8px;
+  margin-left: 2rem;
+}
+.img-about {
+  display: flex;
+  justify-content: center;
+}
