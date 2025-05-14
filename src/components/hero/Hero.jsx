@@ -1,4 +1,6 @@
 import "./Hero.css";
+import TapeRight from '../tape-right/TapeRight'
+
 
 function Hero() {
   return (
