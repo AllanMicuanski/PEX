@@ -1,0 +1,12 @@
+.tape-right {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centraliza a fita horizontalmente */
+  margin: 2rem 0; /* Margem superior e inferior para separar as seções */
+}
+
+.tape-right img {
+  width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura */
+  height: auto; /* Ajusta a altura da imagem de forma proporcional */
+}
