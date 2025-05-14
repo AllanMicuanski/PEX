@@ -1,11 +1,16 @@
 import "./Hero.css";
+import TapeRight from '../tape-right/TapeRight'
+
 
 function Hero() {
   return (
     <section className="hero-section" id="home">
       <div className="hero-content">
-        <h2 className="hero-title">Bem-vindo à MinhaEmpresa</h2>
-        <p className="hero-subtitle">Soluções inteligentes para o seu negócio.</p>
+        <h2 className="hero-title">Nós acreditamos que...</h2>
+        <div className="hero-subtitles">
+          <p className="hero-subtitle confort">CONFORTO</p>
+          <p className="hero-subtitle sale">VENDE</p>
+        </div>
       </div>
     </section>
   );

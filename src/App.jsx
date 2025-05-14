@@ -1,24 +1,24 @@
+import './index.css'
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
-import About from './sections/about/About';
-import Services from './sections/services/Services';
-import Contact from './sections/contact/Contact';
+import About from './components/about/About';
 import Footer from './components/footer/Footer';
+import TapeRight from './components/tape-right/TapeRight'
+import TapeLeft from './components/tape-left/TapeLeft';
 
 function App() {
   return (
-    <>
+    <div className="app-background">
       <Header />
-      <main className="pt-20">
-        {' '}
-        {/* espaço para o header fixo */}
+      <main >
         <Hero />
-        <About />
-        <Services />
-        <Contact />
+      <TapeRight />
+      <About/>
+      <TapeLeft />
+
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

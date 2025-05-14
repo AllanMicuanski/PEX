@@ -1,0 +1,19 @@
+.tape-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.tape-right img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.tape-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
