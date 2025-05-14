@@ -1,0 +1,48 @@
+/* Header.css */
+
+header {
+  background-color: #131313;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md equivalente */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.container {
+  max-width: 1200px; /* mx-auto padrão do Tailwind */
+  margin: 0 auto;
+  padding: 1rem 1.5rem; /* py-4 px-6 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space-x-2 */
+}
+
+.logo-container img {
+  height: 2rem; /* h-8 */
+  width: auto;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem; /* space-x-6 */
+  color: white;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #bf512b;
+}
