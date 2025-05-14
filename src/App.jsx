@@ -14,6 +14,7 @@ function App() {
         <Hero />
       <TapeRight />
       <About/>
+      <TapeLeft />
 
       </main>
       <Footer />
