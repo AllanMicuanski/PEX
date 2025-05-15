@@ -1,0 +1,9 @@
+.Clients-section {
+  background-color: #BF512B;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 4rem;
+}
