@@ -1,27 +1,21 @@
-import "./Services.css";
+import './HowWork.css';
 
-function Services() {
+function HowWork() {
   return (
-    <section id="services" className="services-section">
-      <div className="services-container">
-        <h2 className="services-title">Nossos Serviços</h2>
-        <div className="services-grid">
-          <div className="service-card">
-            <h3 className="service-title">Consultoria</h3>
-            <p className="service-text">Ajudamos sua empresa a crescer com estratégia e tecnologia.</p>
-          </div>
-          <div className="service-card">
-            <h3 className="service-title">Desenvolvimento</h3>
-            <p className="service-text">Criamos soluções personalizadas, de sites a sistemas completos.</p>
-          </div>
-          <div className="service-card">
-            <h3 className="service-title">Suporte</h3>
-            <p className="service-text">Estamos ao seu lado com suporte técnico eficiente e ágil.</p>
-          </div>
-        </div>
+    <section id="HowWork" className="HowWork-section">
+      <h2 className="how-work-title">Como funciona?</h2>
+
+      <div className="HowWork-container">
+        <iframe
+          src="https://www.youtube.com/embed/bC--eNj3sIE"
+          title="Vídeo explicativo"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </section>
   );
 }
 
-export default Services;
+export default HowWork;
