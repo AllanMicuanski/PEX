@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import TapeRight from './components/tape-right/TapeRight';
 import TapeLeft from './components/tape-left/TapeLeft';
 import HowWork from './components/howWork/HowWork';
+import Clients from './components/clients/Clients';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <About />
         <TapeLeft />
         <HowWork />
+        <TapeRight />
+        <Clients />
       </main>
       <Footer />
     </div>
