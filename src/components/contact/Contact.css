@@ -1,0 +1,41 @@
+.contact-section {
+  background-color: #131313;
+  color: #fff;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.contact-container {
+  width: 90%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-item svg {
+  margin-bottom: 1rem;
+  width: 48px;
+  height: 48px;
+  background-color: #222; /* fundo escuro */
+  border-radius: 50%; /* deixa redondo */
+  padding: 12px; /* espaço interno para o ícone */
+  box-sizing: content-box;
+}
+  
+.contact-item h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #D2ECFF;
+}
