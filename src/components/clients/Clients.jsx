@@ -63,6 +63,7 @@ const Clients = () => {
         slidesPerView={slidesPerView}
         navigation
         loop={shouldLoop}
+        className="clients-swiper"
       >
         {clientsData.map(({ id, img, title, text }) => (
           <SwiperSlide key={id}>
