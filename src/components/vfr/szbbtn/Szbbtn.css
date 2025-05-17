@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "SizebayIcons";
+  src: url("https://static.sizebay.technology/font/stores/fontRuler/fonts/untitled-font-3.woff");
+}
+
+.vfr-btns-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: max-content;
+}
+
+.vfr-btn,
+.chart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.vfr-btn::after,
+.chart-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: #333;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.vfr-btn:hover,
+.chart-btn:hover {
+  color: #000;
+}
+
+.vfr-btn:hover::after,
+.chart-btn:hover::after {
+  transform: scaleX(1);
+}
+
+.vfr-btn .icon,
+.chart-btn .icon {
+  font-family: "SizebayIcons";
+  font-size: 19px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: 1px;
+}
+.chart-btn .icon {
+  margin-top: 4px;
+}
+
+.vfr-btn .icon::before {
+  content: "\61";
+}
+
+.chart-btn .icon::before {
+  content: "\62";
+}
