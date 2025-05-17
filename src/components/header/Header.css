@@ -1,4 +1,4 @@
-/* Header fixo e estilização básica */
+/* Estilo base do header */
 header {
   background-color: #131313;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -24,34 +24,85 @@ header {
   gap: 0.5rem;
 }
 
-/* Logos */
-.logo {
+/* Wrapper que contém as duas logos da Sizebay sobrepostas */
+.logo-fade-wrapper {
+  position: relative;
+  width: 160px; /* ajuste conforme necessário */
   height: 2.5rem;
-  width: auto;
-  opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
 }
 
+/* Todas as logos da Sizebay são posicionadas absolutamente no wrapper */
+.logo-fade-wrapper .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.8s ease;
+  transform: translateY(10px);
+  z-index: 1;
+}
+
+/* Quando visível */
+.logo-fade-wrapper .fade-in-show {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 2;
+}
+
+/* Quando invisível */
+.logo-fade-wrapper .fade-out-hide {
+  opacity: 0;
+  transform: translateY(-10px);
+  z-index: 1;
+}
+
+/* Logo da Audaces */
 .logo-audaces {
   height: 1.5rem;
   width: auto;
+  opacity: 0;
 }
 
+/* Texto 'by:' */
 .logo-span {
   color: #fff;
   font-size: 0.95rem;
   font-weight: 400;
+  opacity: 0;
 }
 
-/* Animação */
+/* Transições */
+.fade-in {
+  opacity: 1;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.fade-out {
+  opacity: 0;
+  animation: fadeOut 0.8s ease forwards;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(-6px);
+    transform: translateY(6px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-6px);
   }
 }
 

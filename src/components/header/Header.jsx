@@ -7,7 +7,7 @@ function Header() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowAudaces(true);
-    }, 2000); // tempo para trocar a logo
+    }, 10000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -16,19 +16,21 @@ function Header() {
     <header>
       <div className="container">
         <div className="logo-container">
-          {!showAudaces ? (
+          <div className="logo-fade-wrapper">
             <img
-              className="logo logo-white fade-in"
+              className={`logo logo-white ${!showAudaces ? "fade-in-show" : "fade-out-hide"}`}
               src="/src/assets/logoHeaderWhite.svg"
               alt="Logo Sizebay White"
             />
-          ) : (
+            <img
+              className={`logo logo-dark ${showAudaces ? "fade-in-show" : "fade-out-hide"}`}
+              src="/src/assets/logoHeaderDark.svg"
+              alt="Logo Sizebay Dark"
+            />
+          </div>
+
+          {showAudaces && (
             <>
-              <img
-                className="logo logo-dark fade-in"
-                src="/src/assets/logoHeaderDark.svg"
-                alt="Logo Sizebay Dark"
-              />
               <span className="logo-span fade-in">by:</span>
               <img
                 className="logo logo-audaces fade-in"
@@ -39,7 +41,6 @@ function Header() {
           )}
         </div>
 
-        {/* Navegação */}
         <nav>
           <a href="#sobre">Sobre</a>
           <a href="#funciona">Como Funciona</a>
