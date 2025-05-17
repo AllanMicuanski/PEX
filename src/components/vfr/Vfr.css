@@ -1,0 +1,101 @@
+.vfr-section {
+  background-color: #d2ecff;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 1200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vfr-title {
+  font-family: "KassiClassic", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  box-shadow: 4px 4px 10px 2px #380c0c3d;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.vfr-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.product-subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.size-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.size-list li {
+  background-color: #f1f1f1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.size-list li:hover {
+  background-color: #bf512b;
+  color: white;
+}
+
+.try-button {
+  background-color: #131313;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.try-button:hover {
+  background-color: #bf512b;
+}
