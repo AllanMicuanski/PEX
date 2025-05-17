@@ -25,24 +25,22 @@
     <!-- Script para alternar os ícones -->
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        // Variáveis para os ícones e títulos
         const favicon = document.getElementById("favicon");
         const titles = ["Get It Right", "Sizebay"];
-        const favicons = [
-          "./src/assets/five.svg", // Favicon 1
-          "./src/assets/five2.png", // Favicon 2
-        ];
+        const favicons = ["./src/assets/five.svg", "./src/assets/five2.png"];
 
-        let currentIndex = 0; // Inicia com o primeiro ícone e título
+        let currentIndex = 0;
 
-        // Função para alternar o favicon e o título
         function toggleFaviconAndTitle() {
-          currentIndex = (currentIndex + 1) % 2; // Alterna entre 0 e 1
-          favicon.setAttribute("href", favicons[currentIndex]); // Atualiza o favicon
-          document.title = titles[currentIndex]; // Atualiza o título da página
+          currentIndex = (currentIndex + 1) % 2;
+          favicon.setAttribute("href", favicons[currentIndex]);
+          document.title = titles[currentIndex];
         }
 
-        // Chama a função a cada 3 segundos para alternar
+        // Chama pela primeira vez logo para sincronizar no carregamento
+        toggleFaviconAndTitle();
+
+        // Depois troca a cada 10 segundos
         setInterval(toggleFaviconAndTitle, 10000);
       });
     </script>

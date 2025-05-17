@@ -1,8 +1,14 @@
-/* Header.css */
+@font-face {
+  font-family: "KassiClassic";
+  src: url("/src/assets/fonts/KassiClassic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 header {
   background-color: #131313;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md equivalente */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
@@ -11,9 +17,9 @@ header {
 }
 
 .container {
-  max-width: 1200px; /* mx-auto padrão do Tailwind */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 1.5rem; /* py-4 px-6 */
+  padding: 0.5rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,17 +28,88 @@ header {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* space-x-2 */
+  gap: 0.5rem;
 }
 
-.logo-container img {
-  height: 2rem; /* h-8 */
+.logo-fade-wrapper {
+  position: relative;
+  width: 160px;
+  height: 2.5rem;
+}
+
+.logo-fade-wrapper .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.8s ease;
+  transform: translateY(10px);
+  z-index: 1;
+}
+
+.logo-fade-wrapper .fade-in-show {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 2;
+}
+
+.logo-fade-wrapper .fade-out-hide {
+  opacity: 0;
+  transform: translateY(-10px);
+  z-index: 1;
+}
+
+.logo-audaces {
+  height: 1.5rem;
+  width: auto;
+  opacity: 0;
+}
+
+.logo-span {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 400;
+  opacity: 0;
+  text-decoration: none;
+}
+
+.fade-in {
+  opacity: 1;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.fade-out {
+  opacity: 0;
+  animation: fadeOut 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
 }
 
 nav {
   display: flex;
-  gap: 1.5rem; /* space-x-6 */
+  gap: 1.5rem;
   color: white;
   font-weight: 500;
 }
@@ -41,6 +118,9 @@ nav a {
   text-decoration: none;
   color: inherit;
   transition: color 0.2s ease;
+  font-size: 1.8rem;
+  font-family: "KassiClassic", sans-serif;
+  text-transform: uppercase;
 }
 
 nav a:hover {

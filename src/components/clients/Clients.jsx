@@ -7,6 +7,8 @@ import 'swiper/css/navigation';
 import lanidor from '../../assets/clients/lanidor.webp';
 import miik from '../../assets/clients/miik.webp';
 import bunnies from '../../assets/clients/bunnies.png';
+import intimissimi from '../../assets/clients/intimissimi.webp'
+import osklen from '../../assets/clients/osklen.webp'
 
 import './Clients.css';
 
@@ -28,6 +30,18 @@ const clientsData = [
     img: bunnies,
     title: 'Bunnies JR',
     text: 'Queríamos uma solução fácil de usar e que representasse bem os valores da nossa marca. A Sizebay atendeu todas as nossas expectativas.',
+  },
+  {
+    id: 'intimissimi',
+    img: intimissimi,
+    title: 'Intimissimi',
+    text: 'O Provador Virtual ajuda muito nossos clientes a encontrarem o tamanho ideal de cada peça. Em um mercado onde cada marca possui suas medidas, ter uma ferramenta que auxilie e dê mais confiança ao consumidor na hora da compra é essencial. Sem falar no ganho que tivemos com o menor número de devoluções por conta do acerto na sugestão do tamanho dos produtos.',
+  },
+   {
+    id: 'osklen',
+    img: osklen,
+    title: 'Osklen',
+    text: 'O provador virtual ajuda homens e mulheres a comprarem de forma mais assertiva suas roupas online, melhorando a experiência de compra do cliente e nos ajuda a reduzir o índice de devolução. Estamos gostando bastante do produto!',
   },
 ];
 
@@ -54,7 +68,7 @@ const Clients = () => {
   const shouldLoop = clientsData.length > slidesPerView;
 
   return (
-    <section id="Clients" className="Clients-section">
+    <section id="clients" className="Clients-section">
       <h2 className="Clients-title">Clientes</h2>
 
       <Swiper
@@ -63,6 +77,7 @@ const Clients = () => {
         slidesPerView={slidesPerView}
         navigation
         loop={shouldLoop}
+        className="clients-swiper"
       >
         {clientsData.map(({ id, img, title, text }) => (
           <SwiperSlide key={id}>
