@@ -32,7 +32,7 @@ function Header() {
 
           {showAudaces && (
             <>
-              <span className="logo-span fade-in">by:</span>
+              <span className="logo-span fade-in">by</span>
               <img
                 className="logo logo-audaces fade-in"
                 src="/src/assets/logo-audaces.png"
