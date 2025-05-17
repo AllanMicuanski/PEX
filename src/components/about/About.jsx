@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <section id="about"  className="about-section">
+    <section id="about" className="about-section">
       <div className="about-container">
         <h2 className="about-title">Sobre Nós</h2>
 
@@ -55,15 +55,14 @@ function About() {
         </div>
 
         <div className="img-about">
-
-        <img
-        src="src/assets/mixMatch.svg"  
-        alt="Tape Right"
-        />
-        <img
-        src="src/assets/sizeFit.svg"  
-        alt="Tape Right"
-        />
+          <img
+            src="src/assets/mixMatch.svg"
+            alt="Mix and Match"
+          />
+          <img
+            src="src/assets/sizeFit.svg"
+            alt="Size & Fit"
+          />
         </div>
       </div>
     </section>

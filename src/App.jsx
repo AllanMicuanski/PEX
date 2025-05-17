@@ -8,6 +8,7 @@ import TapeLeft from './components/tape-left/TapeLeft';
 import HowWork from './components/howWork/HowWork';
 import Clients from './components/clients/Clients';
 import Contact from './components/contact/Contact';
+import Vfr from './components/vfr/Vfr';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <TapeRight />
         <Clients />
         <TapeLeft />
+        <Vfr/>
         <Contact />
       </main>
       <Footer />
