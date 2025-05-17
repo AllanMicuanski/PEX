@@ -4,11 +4,12 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import lanidor from '../../assets/clients/lanidor.webp';
-import miik from '../../assets/clients/miik.webp';
-import bunnies from '../../assets/clients/bunnies.png';
-import intimissimi from '../../assets/clients/intimissimi.webp';
-import osklen from '../../assets/clients/osklen.webp';
+
+import lanidor from '/assets/clients/lanidor.webp';
+import miik from '/assets/clients/miik.webp';
+import bunnies from '/assets/clients/bunnies.png';
+import intimissimi from '/assets/clients/intimissimi.webp'
+import osklen from '/assets/clients/osklen.webp'
 
 import './Clients.css';
 
