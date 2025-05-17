@@ -21,14 +21,14 @@
   font-size: 2.5rem;
   font-weight: 100;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
   box-shadow: 4px 4px 10px 2px #d2ecff;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   color: #d2ecff;
-  width: max-content;
-  display: flex;
-  justify-content: center;
+  max-width: max-content;
+  display: block;
+  text-align: center;
 }
 
 .about-block {

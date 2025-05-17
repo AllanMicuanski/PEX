@@ -99,3 +99,9 @@
 .try-button:hover {
   background-color: #bf512b;
 }
+
+@media (max-width: 768px) {
+  .vfr-section {
+    margin: 2rem 1rem;
+  }
+}
