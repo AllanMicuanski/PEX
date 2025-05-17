@@ -5,11 +5,11 @@ function Header() {
   const [showAudaces, setShowAudaces] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowAudaces(true);
-    }, 10000);
+    const interval = setInterval(() => {
+      setShowAudaces((prev) => !prev);
+    }, 10000); // alterna a cada 10 segundos
 
-    return () => clearTimeout(timer);
+    return () => clearInterval(interval);
   }, []);
 
   return (
