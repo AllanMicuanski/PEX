@@ -23,6 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo-container {
@@ -64,25 +65,19 @@ header {
 .logo-audaces {
   height: 1.5rem;
   width: auto;
-  opacity: 0;
 }
 
 .logo-span {
   color: #fff;
   font-size: 0.95rem;
   font-weight: 400;
-  opacity: 0;
+  opacity: 1;
   text-decoration: none;
 }
 
 .fade-in {
   opacity: 1;
   animation: fadeIn 0.8s ease forwards;
-}
-
-.fade-out {
-  opacity: 0;
-  animation: fadeOut 0.8s ease forwards;
 }
 
 @keyframes fadeIn {
@@ -96,17 +91,7 @@ header {
   }
 }
 
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-6px);
-  }
-}
-
+/* Navegação padrão */
 nav {
   display: flex;
   gap: 1.5rem;
@@ -118,11 +103,114 @@ nav a {
   text-decoration: none;
   color: inherit;
   transition: color 0.2s ease;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "KassiClassic", sans-serif;
   text-transform: uppercase;
 }
 
 nav a:hover {
   color: #bf512b;
+}
+
+.desktop-menu {
+  display: flex;
+  gap: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-family: "KassiClassic", sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.desktop-menu a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.desktop-menu a:hover {
+  color: #bf512b;
+}
+
+.bm-burger-button {
+  display: none;
+}
+
+/*------- Mobile ---------- */
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .bm-burger-button {
+    display: block;
+    position: fixed;
+    width: 30px;
+    height: 24px;
+    right: 20px;
+    top: 20px;
+    z-index: 1000;
+  }
+
+  .bm-burger-bars {
+    background: white;
+  }
+
+  .bm-menu {
+    background: #131313;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+
+  .bm-menu-wrap {
+    top: 0;
+    height: 100%;
+  }
+
+  .bm-item {
+    display: block;
+    padding: 0.8em 0;
+    color: white;
+    text-decoration: none;
+    font-family: "KassiClassic", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .bm-item:hover {
+    color: #bf512b;
+  }
+
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+  }
+  .logo-audaces {
+    height: 1.3rem;
+    width: auto;
+  }
+
+  .logo-span.fade-in {
+    margin-left: -2rem;
+  }
+
+  .logo-white,
+  .logo-dark {
+    height: 2rem !important;
+    width: auto;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+}
+/* -----//----- */
+
+.bm-menu-wrap {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: max-content !important;
+  z-index: 9999;
 }
