@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "KassiClassic";
+  src: url("/src/assets/fonts/KassiClassic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 header {
   background-color: #131313;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -109,8 +117,9 @@ nav a {
   text-decoration: none;
   color: inherit;
   transition: color 0.2s ease;
-  font-size: 1.3rem;
-  font-family: "Kassi", sans-serif;
+  font-size: 1.8rem;
+  font-family: "KassiClassic", sans-serif;
+  text-transform: uppercase;
 }
 
 nav a:hover {

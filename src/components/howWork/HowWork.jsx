@@ -2,7 +2,7 @@ import './HowWork.css';
 
 function HowWork() {
   return (
-    <section id="HowWork" className="HowWork-section">
+    <section id="howwork" className="HowWork-section">
       <h2 className="how-work-title">Como funciona?</h2>
 
       <div className="HowWork-container">

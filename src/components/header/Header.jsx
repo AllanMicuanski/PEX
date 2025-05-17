@@ -15,18 +15,19 @@ function Header() {
   return (
     <header>
       <div className="container">
+      <a href="#home">
         <div className="logo-container">
           <div className="logo-fade-wrapper">
             <img
               className={`logo logo-white ${!showAudaces ? "fade-in-show" : "fade-out-hide"}`}
               src="/src/assets/logoHeaderWhite.svg"
               alt="Logo Sizebay White"
-            />
+              />
             <img
               className={`logo logo-dark ${showAudaces ? "fade-in-show" : "fade-out-hide"}`}
               src="/src/assets/logoHeaderDark.svg"
               alt="Logo Sizebay Dark"
-            />
+              />
           </div>
 
           {showAudaces && (
@@ -36,16 +37,17 @@ function Header() {
                 className="logo logo-audaces fade-in"
                 src="/src/assets/logo-audaces.png"
                 alt="Logo Audaces"
-              />
+                />
             </>
           )}
         </div>
+          </a>
 
         <nav>
-          <a href="#sobre">Sobre</a>
-          <a href="#funciona">Como Funciona</a>
-          <a href="#clientes">Clientes</a>
-          <a href="#contato">Contato</a>
+          <a href="#about">sobre</a>
+          <a href="#howwork">como funciona</a>
+          <a href="#clients">clientes</a>
+          <a href="#contact">contato</a>
         </nav>
       </div>
     </header>
