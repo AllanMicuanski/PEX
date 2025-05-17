@@ -68,7 +68,7 @@ const Clients = () => {
   const shouldLoop = clientsData.length > slidesPerView;
 
   return (
-    <section id="Clients" className="Clients-section">
+    <section id="clients" className="Clients-section">
       <h2 className="Clients-title">Clientes</h2>
 
       <Swiper
