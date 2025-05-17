@@ -1,10 +1,13 @@
 .about-section {
   background-color: #131313;
-  color: #fff;
-  padding: 5rem 0;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 1200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: center;
-  margin: 4rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-container {
@@ -14,10 +17,18 @@
 }
 
 .about-title {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
+  font-family: "KassiClassic", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
   margin-bottom: 2rem;
+  box-shadow: 4px 4px 10px 2px #d2ecff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: #d2ecff;
+  width: max-content;
+  display: flex;
+  justify-content: center;
 }
 
 .about-block {
@@ -27,7 +38,7 @@
 .about-block h3 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
-  color: #bf512b; /* Destaque */
+  color: #d2ecff;
 }
 
 .about-block p,
@@ -39,18 +50,52 @@
 
 .about-block ul {
   list-style: disc inside;
+  padding-left: 0;
+  margin-left: 1rem;
 }
 
 .about-contact a {
-  color: #60a5fa;
+  color: #d2ecff;
   text-decoration: underline;
+}
+
+.img-about {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
 }
 
 .about-section img {
   border-radius: 8px;
-  margin-left: 2rem;
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 300px;
+  object-fit: contain;
 }
-.img-about {
-  display: flex;
-  justify-content: center;
+
+@media (max-width: 768px) {
+  .about-section {
+    margin: 2rem 0.5rem;
+    padding: 3rem 1rem;
+  }
+
+  .about-title {
+    font-size: 1.75rem;
+  }
+
+  .about-block h3 {
+    font-size: 1.1rem;
+  }
+
+  .about-block p,
+  .about-block li {
+    font-size: 0.9rem;
+  }
+
+  .img-about {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
