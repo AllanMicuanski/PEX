@@ -1,5 +1,6 @@
 import React from 'react';
 import './Vfr.css';
+import Szbbtn from './szbbtn/Szbbtn';
 
 const Vfr = () => {
   return (
@@ -21,6 +22,7 @@ const Vfr = () => {
             <li>G</li>
             <li>GG</li>
           </ul>
+       <Szbbtn/>
         </div>
 
         {/* Produto 2 */}
@@ -37,6 +39,7 @@ const Vfr = () => {
             <li>42</li>
             <li>44</li>
           </ul>
+       <Szbbtn/>
         </div>
       </div>
     </section>
