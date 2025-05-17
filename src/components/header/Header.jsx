@@ -20,12 +20,12 @@ function Header() {
           <div className="logo-fade-wrapper">
             <img
               className={`logo logo-white ${!showAudaces ? "fade-in-show" : "fade-out-hide"}`}
-              src="/src/assets/logoHeaderWhite.svg"
+              src="/assets/logoHeaderWhite.svg"
               alt="Logo Sizebay White"
             />
             <img
               className={`logo logo-dark ${showAudaces ? "fade-in-show" : "fade-out-hide"}`}
-              src="/src/assets/logoHeaderDark.svg"
+              src="/assets/logoHeaderDark.svg"
               alt="Logo Sizebay Dark"
             />
           </div>
@@ -35,7 +35,7 @@ function Header() {
               <span className="logo-span fade-in">by</span>
               <img
                 className="logo logo-audaces fade-in"
-                src="/src/assets/logo-audaces.png"
+                src="/assets/logo-audaces.png"
                 alt="Logo Audaces"
               />
             </>

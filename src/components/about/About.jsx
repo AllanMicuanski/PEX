@@ -55,14 +55,17 @@ function About() {
         </div>
 
         <div className="img-about">
-          <img
-            src="src/assets/mixMatch.svg"
-            alt="Mix and Match"
-          />
-          <img
-            src="src/assets/sizeFit.svg"
-            alt="Size & Fit"
-          />
+
+
+        <img
+        src="/assets/mixMatch.svg"  
+        alt="Tape Right"
+        />
+        <img
+        src="/assets/sizeFit.svg"  
+        alt="Tape Right"
+        />
+
         </div>
       </div>
     </section>

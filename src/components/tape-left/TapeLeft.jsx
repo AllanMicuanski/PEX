@@ -5,7 +5,7 @@ const TapeLeft = () => {
   return (
     <div className="tape-left">
       <img
-        src="src/assets/TapeLeft.svg"  
+        src="/assets/TapeLeft.svg"  
         alt="Tape Left"
       />
     </div>
