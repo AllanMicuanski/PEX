@@ -67,3 +67,59 @@
 .chart-btn .icon::before {
   content: "\62";
 }
+
+/* BACKDROP COM MODAL CENTRALIZADO E FIXO */
+.vfr__container--backdrop {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+}
+
+/* MODAL CENTRALIZADO COM POSITION FIXED */
+.vfr__container--backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.vfr-app {
+  width: 90%;
+  max-width: 948px;
+  height: 548px;
+  background: transparent;
+  box-shadow: none !important;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 2.2rem;
+  right: 0rem;
+  width: 40px;
+  height: 55px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: transparent;
+  z-index: 10000;
+}
+
+@media (max-width: 768px) {
+  .modal-close-btn {
+    top: 1.2rem;
+    right: 1rem;
+    width: 30px;
+    height: 30px;
+  }
+}
