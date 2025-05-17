@@ -60,3 +60,7 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+#modal-root {
+  width: 948px;
+  height: 548px;
+}
