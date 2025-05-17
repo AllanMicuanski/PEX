@@ -1,26 +1,40 @@
 .HowWork-section {
-  background-color: #D2ECFF;
-  padding: 5rem 0;
+  background-color: #d2ecff;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 1200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin: 4rem;
 }
 
 .how-work-title {
-  color: #000;
-  font-weight: 900;
+  font-family: "KassiClassic", sans-serif;
+  font-weight: 100;
   font-size: 2.5rem;
-  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #000;
+  box-shadow: 4px 4px 10px 2px #380c0c3d;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  width: max-content;
+  display: flex;
+  justify-content: center;
 }
 
 .HowWork-container {
   position: relative;
   width: 90%;
   max-width: 800px;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
   height: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .HowWork-container iframe {
@@ -30,6 +44,16 @@
   width: 100%;
   height: 100%;
   border: none;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  .HowWork-section {
+    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .how-work-title {
+    font-size: 1.75rem;
+  }
 }

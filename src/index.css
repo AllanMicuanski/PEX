@@ -1,8 +1,62 @@
-.app-background {
-  background-image: url("./assets/Background.svg");
+body {
+  background-image: url("./assets/Background-bg.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
-  min-width: 100vw;
+}
+
+/* Estilos base do react-burger-menu */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 20px;
+  top: 20px;
+}
+
+.bm-burger-bars {
+  background: white;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: white;
+}
+
+.bm-menu {
+  background: #131313;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-item {
+  display: inline-block;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: "KassiClassic", sans-serif;
+  text-transform: uppercase;
+}
+
+.bm-item:hover {
+  color: #bf512b;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }

@@ -1,10 +1,13 @@
 .contact-section {
   background-color: #131313;
-  color: #fff;
-  padding: 5rem 0;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 1200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   display: flex;
-  justify-content: center;
-  margin: 4rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-container {
@@ -28,14 +31,33 @@
   margin-bottom: 1rem;
   width: 48px;
   height: 48px;
-  background-color: #222; /* fundo escuro */
-  border-radius: 50%; /* deixa redondo */
-  padding: 12px; /* espaço interno para o ícone */
+  background-color: #222;
+  border-radius: 50%;
+  padding: 12px;
   box-sizing: content-box;
 }
-  
-.contact-item h2 {
+
+.contact-item h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #D2ECFF;
+  color: #d2ecff;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .contact-section {
+    margin: 2rem 1rem;
+    padding: 3rem 0;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .contact-item {
+    width: 100%;
+    max-width: 300px;
+  }
 }
