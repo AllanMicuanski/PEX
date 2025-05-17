@@ -1,12 +1,23 @@
 .tape-left {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+  padding: 0;
 }
 
 .tape-left img {
   width: 100%;
-  max-width: 100%;
   height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .tape-left img {
+    height: 100px;
+    width: auto;
+  }
 }

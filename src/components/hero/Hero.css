@@ -91,4 +91,7 @@
     font-size: 6.5rem;
     margin-right: 0.5rem;
   }
+  .hero-inner {
+    margin-bottom: 2rem;
+  }
 }
