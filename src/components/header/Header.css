@@ -34,7 +34,7 @@ header {
 
 .logo-fade-wrapper {
   position: relative;
-  width: 160px;
+  width: 130px;
   height: 2.5rem;
 }
 
@@ -73,6 +73,16 @@ header {
   font-weight: 400;
   opacity: 1;
   text-decoration: none;
+}
+
+.logo-container {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.logo-container .logo-span {
+  display: inline-block;
+  text-decoration: none !important;
+  color: #fff !important;
 }
 
 .fade-in {
@@ -133,6 +143,10 @@ nav a:hover {
 
 .bm-burger-button {
   display: none;
+}
+
+.logo {
+  margin-top: 2px;
 }
 
 /*------- Mobile ---------- */
@@ -213,4 +227,8 @@ nav a:hover {
   width: 100% !important;
   height: max-content !important;
   z-index: 9999;
+}
+
+.logo-dark {
+  border-radius: 3px;
 }
