@@ -1,9 +1,9 @@
 .footer {
   background-color: #131313;
-  color: #BF512B;
+  color: #bf512b;
   padding: 2rem 1rem;
-  border-top: 1px solid #BF512B;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 1px solid #bf512b;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-content {
@@ -29,7 +29,7 @@
 }
 
 .footer-links a {
-  color: #BF512B;
+  color: #bf512b;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -49,7 +49,7 @@
 .footer-socials a svg {
   width: 24px;
   height: 24px;
-  fill: #BF512B;
+  fill: #bf512b;
   transition: fill 0.3s ease;
 }
 
@@ -61,4 +61,10 @@
   text-align: center;
   font-size: 0.8rem;
   color: #a05a28;
+}
+
+@media (max-width: 760px) {
+  .footer-socials {
+    justify-content: center;
+  }
 }
