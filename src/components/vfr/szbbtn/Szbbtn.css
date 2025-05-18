@@ -122,4 +122,9 @@
     width: 30px;
     height: 30px;
   }
+
+  .vfr-app {
+    width: 100%;
+    height: 100%;
+  }
 }
