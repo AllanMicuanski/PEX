@@ -1,6 +1,7 @@
 import React from 'react';
 import './Vfr.css';
-import Szbbtn from './szbbtn/Szbbtn';
+import SzbShoeBtn from './szbbtn/SzbShoeBtn';
+import SzbCloethestBtn from './szbbtn/SzbCloethestBtn';
 
 const Vfr = () => {
   return (
@@ -11,7 +12,7 @@ const Vfr = () => {
         {/* Produto 1 */}
         <div className="product-card">
           <img
-            src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSB7rhm9aoKQPKp6HdZvwHD2Ae9m3p20qXx1iOBI0xdoexPvxgZkgeqcKvWcGxA7tqFHq0VuXx1tgiZ81oj5aoXAaTZebXsErkthvh1uQrZUDF2q3f1EwVLNLFOFaWiXEMl9DlJKxCW&usqp=CAc"
+            src="https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/mkd/media/uploads/produtos/foto/qfificra/camiseta-nike-sb-large-logo-black.jpeg"
             alt="Camiseta Nike"
           />
           <h3>Camiseta Nike</h3>
@@ -22,13 +23,13 @@ const Vfr = () => {
             <li>G</li>
             <li>GG</li>
           </ul>
-       <Szbbtn/>
+       <SzbCloethestBtn/>
         </div>
 
         {/* Produto 2 */}
         <div className="product-card">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqu0n6DFtIpTkkR4fKeUFeynM_ssdR0Ya02g&s"
+            src="https://cdn.vnda.com.br/1920x/tupode/2025/03/12/14_26_32_364_14_3_7_794_a481f28b640e77ab981101c70ab7ec74.png?v=1741800397"
             alt="Tênis Nike"
           />
           <h3>Tênis Nike</h3>
@@ -39,7 +40,7 @@ const Vfr = () => {
             <li>42</li>
             <li>44</li>
           </ul>
-       <Szbbtn/>
+       <SzbShoeBtn/>
         </div>
       </div>
     </section>

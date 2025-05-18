@@ -30,11 +30,11 @@ const Szbbtn = () => {
 
   const iframeData = {
     vfr: {
-      src: "https://new-shoe-master.dse3qg8n6oln8.amplifyapp.com/?mode=vfr&id=7434461&sid=068CFE3F4C19797d2d3427374d96be236a8910fc183c&lang=br&tenantId=1039&backdropWidth=1449&backdropHeight=927&showBackdropLoading=true&sizeSystem=BR&isMeasurementsTableEnabled=true&brandsComparison=true",
+      src: "https://vfr-v3-production.sizebay.technology/V4/?mode=vfr&id=6834311&sid=06880E263BCB4b8077ebb5f44646aa198a216682a13b&lang=br&pageProductImg=https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/mkd/media/uploads/produtos/foto/qfificra/camiseta-nike-sb-large-logo-black.jpeg&tenantId=1039&configProfile=infoBox&backdropWidth=1920&backdropHeight=927&showBackdropLoading=true&sizeSystem=BR",
       title: "Provador Virtual"
     },
     chart: {
-      src: "https://measurements-table.sizebay.technology/?id=7434461&tenantId=1039&sid=068CFE3F4C19797d2d3427374d96be236a8910fc183c&sizeSystem=BR&lang=br",
+      src: "https://vfr-v3-production.sizebay.technology/V4/?mode=chart&id=6834311&sid=06880E263BCB4b8077ebb5f44646aa198a216682a13b&lang=br&pageProductImg=https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/mkd/media/uploads/produtos/foto/qfificra/camiseta-nike-sb-large-logo-black.jpeg&tenantId=1039&configProfile=infoBox&backdropWidth=1449&backdropHeight=927&showBackdropLoading=true&sizeSystem=BR",
       title: "Tabela de Medidas"
     }
   };
