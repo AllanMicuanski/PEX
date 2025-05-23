@@ -47,6 +47,7 @@ function Header() {
           <a href="#about">sobre</a>
           <a href="#howwork">como funciona</a>
           <a href="#clients">cases de sucesso</a>
+          <a href="#virtual">provador virtual</a>
           <a href="#contact">contato</a>
         </nav>
 
@@ -54,6 +55,7 @@ function Header() {
           <a className="menu-item" href="#about">sobre</a>
           <a className="menu-item" href="#howwork">como funciona</a>
           <a className="menu-item" href="#clients">cases de sucesso</a>
+          <a className="menu-item" href="#virtual">provador virtual</a>
           <a className="menu-item" href="#contact">contato</a>
         </Menu>
       </div>

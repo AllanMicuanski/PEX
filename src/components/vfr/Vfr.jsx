@@ -5,7 +5,7 @@ import SzbCloethestBtn from './szbbtn/SzbCloethestBtn';
 
 const Vfr = () => {
   return (
-    <section id="vfr" className="vfr-section">
+    <section id="virtual" className="vfr-section">
       <h2 className="vfr-title">Provador Virtual</h2>
 
       <div className="vfr-container">
