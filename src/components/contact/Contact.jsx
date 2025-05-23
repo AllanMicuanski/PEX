@@ -4,9 +4,14 @@ import './Contact.css';
 export const Contact = () => {
   return (
     <section id="contact" className="contact-section">
-
       <div className="contact-container">
-        <div className="contact-item">
+
+        <a
+          href="#"
+          className="contact-item"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="48"
@@ -22,9 +27,14 @@ export const Contact = () => {
             <rect x="2" y="4" width="20" height="16" rx="2" />
           </svg>
           <h3>Email</h3>
-        </div>
+        </a>
 
-        <div className="contact-item">
+        <a
+          href="https://sizebay.com/pt/"
+          className="contact-item"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="48"
@@ -41,9 +51,14 @@ export const Contact = () => {
             <path d="M2 12h20" />
           </svg>
           <h3>Site Oficial</h3>
-        </div>
+        </a>
 
-        <div className="contact-item">
+        <a
+          href="https://store.sizebay.com/"
+          className="contact-item"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="48"
@@ -58,7 +73,8 @@ export const Contact = () => {
             <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
           </svg>
           <h3>Loja Demo</h3>
-        </div>
+        </a>
+
       </div>
     </section>
   );
