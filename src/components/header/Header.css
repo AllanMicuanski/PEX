@@ -162,6 +162,8 @@ nav a:hover {
 
 /*------- Mobile ---------- */
 
+/* ---- seu CSS normal acima continua --- */
+
 @media (max-width: 768px) {
   .desktop-menu {
     display: none;
@@ -183,22 +185,29 @@ nav a:hover {
 
   .bm-menu {
     background: #131313;
-    padding: 2.5em 1.5em 0;
+    padding: 2.5em 1.5em 2em; /* mais padding inferior para conforto */
     font-size: 1.15em;
+    height: 100vh; /* altura total da tela */
+    overflow-y: auto; /* scroll se necessário */
   }
 
   .bm-menu-wrap {
     top: 0;
-    height: 100%;
+    height: 100vh !important;
+    width: 250px !important; /* fixa largura menor */
+    right: 0;
+    position: fixed !important;
+    z-index: 9999;
   }
 
   .bm-item {
     display: block;
-    padding: 0.8em 0;
+    padding: 1em 0;
     color: white;
     text-decoration: none;
     font-family: "KassiClassic", sans-serif;
     text-transform: uppercase;
+    white-space: nowrap; /* evita quebrar linha */
   }
 
   .bm-item:hover {
@@ -230,6 +239,8 @@ nav a:hover {
     font-size: 1.5rem;
   }
 }
+
+/* -----//----- */
 
 /* -----//----- */
 
