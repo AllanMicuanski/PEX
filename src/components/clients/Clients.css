@@ -119,3 +119,16 @@
     font-size: 1rem;
   }
 }
+
+.client-card .client-link {
+  margin-top: auto;
+  font-weight: bold;
+  color: #bf512b;
+  text-decoration: underline;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.client-card:hover .client-link {
+  color: #e85f36;
+}
