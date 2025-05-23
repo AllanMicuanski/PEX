@@ -46,14 +46,14 @@ function Header() {
         <nav className="desktop-menu">
           <a href="#about">sobre</a>
           <a href="#howwork">como funciona</a>
-          <a href="#clients">clientes</a>
+          <a href="#clients">cases de sucesso</a>
           <a href="#contact">contato</a>
         </nav>
 
         <Menu right width={"250px"} className="mobile-menu">
           <a className="menu-item" href="#about">sobre</a>
           <a className="menu-item" href="#howwork">como funciona</a>
-          <a className="menu-item" href="#clients">clientes</a>
+          <a className="menu-item" href="#clients">cases de sucesso</a>
           <a className="menu-item" href="#contact">contato</a>
         </Menu>
       </div>

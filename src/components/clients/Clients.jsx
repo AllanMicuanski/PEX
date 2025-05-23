@@ -69,7 +69,7 @@ function Clients() {
 
   return (
     <section id="clients" className="clients-section">
-      <h2 className="clients-title">Clientes</h2>
+      <h2 className="clients-title">cases de sucesso</h2>
       <Swiper
         modules={[Navigation]}
         spaceBetween={30}

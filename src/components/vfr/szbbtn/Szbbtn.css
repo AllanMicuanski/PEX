@@ -64,6 +64,22 @@
   content: "\61";
 }
 
+.vfr-btn.shoe .icon::before {
+  display: none;
+}
+.vfr-btn.shoe .icon {
+  font-family: inherit; /* remove ícone da fonte */
+  background-image: url("/assets/shoeIcon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  content: "";
+  display: inline-block;
+}
+
 .chart-btn .icon::before {
   content: "\62";
 }

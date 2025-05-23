@@ -41,12 +41,12 @@ const Szbbtn = () => {
 
   return (
     <>
-      <div className="vfr-btns-container">
-        <button className="vfr-btn" onClick={() => setIframeType('vfr')}>
+      <div className="shoe vfr-btns-container">
+        <button className="shoe vfr-btn" onClick={() => setIframeType('vfr')}>
           <span className="icon" aria-hidden="true"></span>
           Provador Virtual
         </button>
-        <button className="chart-btn" onClick={() => setIframeType('chart')}>
+        <button className="shoe chart-btn" onClick={() => setIframeType('chart')}>
           <span className="icon" aria-hidden="true"></span>
           Tabela de Medidas
         </button>
