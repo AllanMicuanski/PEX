@@ -1,14 +1,15 @@
-.clients-section {
-  background-color: #bf512b;
-  padding: 5rem 2rem;
+.clients-wrapper {
   max-width: 1200px;
-  margin: 4rem auto;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  background-color: #bf512b;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3rem;
   color: white;
-  overflow: hidden; /* previne overflow */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .clients-title {
@@ -26,7 +27,6 @@
 
 .clients-swiper {
   width: 100%;
-  max-width: 100%;
   padding-bottom: 3rem;
 }
 
@@ -72,14 +72,6 @@
   margin-bottom: 1rem;
 }
 
-.client-card p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  font-weight: 500;
-  padding: 0 0.5rem;
-  flex-grow: 1; /* para ocupar espaço e deixar o card com altura igual */
-}
-
 .client-name {
   font-size: 1.4rem;
   font-weight: 700;
@@ -98,28 +90,6 @@
   flex-grow: 1;
 }
 
-/* Responsividade */
-@media (max-width: 480px) {
-  .Clients-section {
-    padding: 3rem 1rem;
-    margin: 2rem 1rem;
-  }
-
-  .clients-title {
-    font-size: 2rem;
-    letter-spacing: 1px;
-  }
-
-  .client-card {
-    max-width: 90vw;
-    padding: 1rem;
-  }
-
-  .client-card p {
-    font-size: 1rem;
-  }
-}
-
 .client-card .client-link {
   margin-top: auto;
   font-weight: bold;
@@ -131,4 +101,30 @@
 
 .client-card:hover .client-link {
   color: #e85f36;
+}
+
+@media (max-width: 480px) {
+  .clients-section {
+    padding: 2rem 0.5rem;
+  }
+
+  .clients-wrapper {
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    margin: 0 0.5rem;
+  }
+
+  .clients-title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .client-card {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .client-card p {
+    font-size: 1rem;
+  }
 }
