@@ -73,26 +73,28 @@ function Clients() {
 
   return (
     <section id="clients" className="clients-section">
-      <h2 className="clients-title">cases de sucesso</h2>
-      <Swiper
-        modules={[Navigation]}
-        spaceBetween={30}
-        slidesPerView={slidesPerView}
-        navigation
-        loop={shouldLoop}
-        className="clients-swiper"
-      >
-        {clientsData.map(({ id, img, title, text, link }) => (
-          <SwiperSlide key={id}>
-            <a href={link} target="_blank" rel="noopener noreferrer" className="client-card" tabIndex={0}>
-              <img src={img} alt={`Logo da loja ${title}`} />
-              <h3 className="client-name">{title}</h3>
-              <p>{text}</p>
-              <span className="client-link">Leia o case completo</span>
-            </a>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="clients-wrapper">
+        <h2 className="clients-title">cases de sucesso</h2>
+        <Swiper
+          modules={[Navigation]}
+          spaceBetween={30}
+          slidesPerView={slidesPerView}
+          navigation
+          loop={shouldLoop}
+          className="clients-swiper"
+        >
+          {clientsData.map(({ id, img, title, text, link }) => (
+            <SwiperSlide key={id}>
+              <a href={link} target="_blank" rel="noopener noreferrer" className="client-card" tabIndex={0}>
+                <img src={img} alt={`Logo da loja ${title}`} />
+                <h3 className="client-name">{title}</h3>
+                <p>{text}</p>
+                <span className="client-link">Leia o case completo</span>
+              </a>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </section>
   );
 }
