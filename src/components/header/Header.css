@@ -30,6 +30,11 @@ header {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  min-width: 220px;
+  max-width: 100%;
+  white-space: nowrap;
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 .logo-fade-wrapper {
@@ -75,14 +80,20 @@ header {
   text-decoration: none;
 }
 
-.logo-container {
-  text-decoration: none !important;
-  color: inherit !important;
+.logo-text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 90px;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
 }
-.logo-container .logo-span {
-  display: inline-block;
-  text-decoration: none !important;
-  color: #fff !important;
+
+.logo-text-wrapper.fade-in {
+  opacity: 1;
+  visibility: visible;
 }
 
 .fade-in {
@@ -199,6 +210,7 @@ nav a:hover {
     top: 0;
     left: 0;
   }
+
   .logo-audaces {
     height: 1.3rem;
     width: auto;
@@ -213,6 +225,7 @@ nav a:hover {
     height: 2rem !important;
     width: auto;
   }
+
   nav a {
     font-size: 1.5rem;
   }

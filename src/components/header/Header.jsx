@@ -9,7 +9,6 @@ function Header() {
     const interval = setInterval(() => {
       setShowAudaces((prev) => !prev);
     }, 10000);
-
     return () => clearInterval(interval);
   }, []);
 
@@ -30,19 +29,20 @@ function Header() {
             />
           </div>
 
-          {showAudaces && (
-            <>
-              <span className="logo-span fade-in">by</span>
-              <img
-                className="logo logo-audaces fade-in"
-                src="/assets/logo-audaces.png"
-                alt="Logo Audaces"
-              />
-            </>
-          )}
+          <div className={`logo-text-wrapper ${showAudaces ? "fade-in" : ""}`}>
+            {showAudaces && (
+              <>
+                <span className="logo-span">by</span>
+                <img
+                  className="logo logo-audaces"
+                  src="/assets/logo-audaces.png"
+                  alt="Logo Audaces"
+                />
+              </>
+            )}
+          </div>
         </a>
 
-        {/* Menu hamburguer */}
         <nav className="desktop-menu">
           <a href="#about">sobre</a>
           <a href="#howwork">como funciona</a>
