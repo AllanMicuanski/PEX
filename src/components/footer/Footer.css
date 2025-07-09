@@ -1,3 +1,105 @@
+/* Dropdown customizado para idiomas no footer */
+.footer-lang-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.footer-lang-select.custom {
+  cursor: pointer;
+  background: #232323;
+  color: #bf512b;
+  border: 1px solid #bf512b;
+  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border 0.2s;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-lang-select.custom:focus {
+  border-color: #f05a28;
+}
+.footer-lang-arrow {
+  font-size: 0.8em;
+}
+.footer-lang-options {
+  position: absolute;
+  bottom: 110%; /* Abre para cima */
+  left: 0;
+  width: 100%;
+  background: #232323;
+  border: 1px solid #bf512b;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  list-style: none;
+  margin: 0;
+  padding: 0.2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.footer-lang-option {
+  color: #bf512b;
+  background: none;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background 0.2s, color 0.2s;
+}
+.footer-lang-option.selected,
+.footer-lang-option:hover,
+.footer-lang-option:focus {
+  background: #bf512b;
+  color: #232323;
+}
+@media (max-width: 760px) {
+  .footer-lang-dropdown {
+    width: 100%;
+    max-width: 120px;
+  }
+  .footer-lang-select.custom {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.6rem;
+  }
+  .footer-lang-options {
+    font-size: 1rem;
+    min-width: 100%;
+    left: 0;
+    right: auto;
+  }
+}
+/* Agrupa ícones sociais e seletor de idioma */
+.footer-socials-lang {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 250px;
+  justify-content: flex-end;
+}
+
+/* Seletor de idioma no footer */
+.footer-lang-select {
+  background: #232323;
+  color: #bf512b;
+  border: 1px solid #bf512b;
+  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border 0.2s;
+}
+.footer-lang-select:focus {
+  border-color: #f05a28;
+}
 .footer {
   background-color: #131313;
   color: #bf512b;
@@ -64,6 +166,15 @@
 }
 
 @media (max-width: 760px) {
+  .footer-socials-lang {
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+  }
+  .footer-lang-select {
+    font-size: 0.95rem;
+    padding: 0.25rem 0.6rem;
+  }
   .footer-socials {
     justify-content: center;
   }

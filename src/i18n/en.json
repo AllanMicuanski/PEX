@@ -1,0 +1,88 @@
+{
+  "menu": {
+    "about": "about",
+    "howwork": "how it works",
+    "clients": "success stories",
+    "virtual": "virtual fitting room",
+    "contact": "contact"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "about": "About",
+    "contact": "Contact",
+    "cases": "Cases",
+    "powered": "Powered by: Allan Micuanski"
+  },
+  "hero": {
+    "title": "We believe that...",
+    "comfort": "COMFORT",
+    "sale": "SELLS"
+  },
+  "about": {
+    "title": "About Us",
+    "historyTitle": "Our History",
+    "historyP1": "Since 2014, we have helped online fashion retailers sell more. Sizebay was born to solve one of the industry's biggest challenges: finding the right size.",
+    "historyP2": "We combine anthropometry, fashion, statistics, and technology to create Size & Fit – a tool that reduces returns and increases confidence at the time of purchase.",
+    "impactTitle": "How We Impact",
+    "impactStores": "Stores: more conversions, fewer returns.",
+    "impactConsumers": "Consumers: frustration-free shopping.",
+    "impactManufacturers": "Manufacturers: insights that optimize collections.",
+    "impactEnvironment": "Environment: less waste, less impact.",
+    "expertiseTitle": "Our Expertise",
+    "expertiseP": "We operate at the intersection of fashion, technology, and performance. AI, e-commerce, textiles – we combine technical knowledge and strategic vision to deliver real results.",
+    "valuesTitle": "Our Values",
+    "values1": "Be ready to lead",
+    "values2": "Show you care",
+    "values3": "Embrace the challenge",
+    "values4": "Value uniqueness",
+    "values5": "Delight with efficiency",
+    "globalTitle": "Global Presence",
+    "globalP1": "We serve stores in 60+ countries, with solutions in 30+ languages. Our systems are secure, scalable, and compliant with major data regulations.",
+    "globalP2": "For more information about LGPD, insurance, and our privacy policy, write to ",
+    "privacyEmail": "privacy@sizebay.com"
+  },
+  "howwork": {
+    "title": "How does it work?",
+    "videoTitle": "Explanatory video"
+  },
+  "clients": {
+    "title": "success stories",
+    "readCase": "Read the full case",
+    "lanidor": {
+      "title": "Lanidor",
+      "text": "Impressive results with the virtual fitting room integrated into the Portuguese brand's e-commerce."
+    },
+    "miik": {
+      "title": "Miik",
+      "text": "Canadian store increased average ticket by 202% with Sizebay."
+    },
+    "bunnies": {
+      "title": "Bunnies JR",
+      "text": "Ease, precision, and intuitive experience for the children's brand customers."
+    },
+    "intimissimi": {
+      "title": "Intimissimi",
+      "text": "Reduced returns and increased conversion with Sizefit."
+    },
+    "osklen": {
+      "title": "Osklen",
+      "text": "19% higher average ticket and optimized shopping experience with the virtual fitting room."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "site": "Official Website",
+    "store": "Demo Store"
+  },
+  "vfr": {
+    "title": "Virtual Fitting Room",
+    "shirtName": "Nike T-shirt",
+    "shoeName": "Nike Sneakers",
+    "sizes": "Available sizes:",
+    "btnTry": "Virtual Fitting Room",
+    "btnChart": "Size Chart",
+    "modalTry": "Virtual Fitting Room",
+    "modalChart": "Size Chart"
+  }
+}
