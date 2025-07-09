@@ -1,0 +1,88 @@
+{
+  "menu": {
+    "about": "私たちについて",
+    "howwork": "使い方",
+    "clients": "成功事例",
+    "virtual": "バーチャル試着室",
+    "contact": "お問い合わせ"
+  },
+  "footer": {
+    "copyright": "全著作権所有。",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "cases": "事例",
+    "powered": "Powered by: Allan Micuanski"
+  },
+  "hero": {
+    "title": "私たちは信じています...",
+    "comfort": "快適さ",
+    "sale": "売れる"
+  },
+  "about": {
+    "title": "私たちについて",
+    "historyTitle": "私たちの歴史",
+    "historyP1": "2014年から、私たちはオンラインファッション小売業者の販売を支援してきました。Sizebayは業界最大の課題の一つ、適切なサイズ探しを解決するために生まれました。",
+    "historyP2": "私たちは人類計測、ファッション、統計、テクノロジーを組み合わせ、返品を減らし購入時の自信を高めるSize & Fitを開発しました。",
+    "impactTitle": "私たちの影響",
+    "impactStores": "店舗：より多くのコンバージョン、より少ない返品。",
+    "impactConsumers": "消費者：ストレスのない買い物。",
+    "impactManufacturers": "メーカー：コレクション最適化のためのインサイト。",
+    "impactEnvironment": "環境：無駄を減らし、影響を最小限に。",
+    "expertiseTitle": "私たちの専門性",
+    "expertiseP": "私たちはファッション、テクノロジー、パフォーマンスの交差点で活動しています。AI、EC、テキスタイル—技術的知識と戦略的ビジョンを融合し、実際の成果を生み出します。",
+    "valuesTitle": "私たちの価値観",
+    "values1": "リードする準備をする",
+    "values2": "思いやりを示す",
+    "values3": "挑戦を受け入れる",
+    "values4": "独自性を大切にする",
+    "values5": "効率的に感動を与える",
+    "globalTitle": "グローバル展開",
+    "globalP1": "60カ国以上の店舗にサービスを提供し、30以上の言語に対応。私たちのシステムは安全で拡張性があり、主要なデータ規制に準拠しています。",
+    "globalP2": "LGPD、保険、プライバシーポリシーについての詳細は、次のアドレスまでご連絡ください：",
+    "privacyEmail": "privacy@sizebay.com"
+  },
+  "howwork": {
+    "title": "使い方は？",
+    "videoTitle": "説明動画"
+  },
+  "clients": {
+    "title": "成功事例",
+    "readCase": "事例を詳しく読む",
+    "lanidor": {
+      "title": "Lanidor",
+      "text": "ポルトガルブランドのECに統合されたバーチャル試着室で顕著な成果。"
+    },
+    "miik": {
+      "title": "Miik",
+      "text": "カナダの店舗がSizebayで平均客単価202%増加。"
+    },
+    "bunnies": {
+      "title": "Bunnies JR",
+      "text": "子供ブランドのお客様に簡単・正確・直感的な体験を。"
+    },
+    "intimissimi": {
+      "title": "Intimissimi",
+      "text": "Sizefitで返品減・コンバージョン増。"
+    },
+    "osklen": {
+      "title": "Osklen",
+      "text": "バーチャル試着室で平均客単価19%増、購買体験も最適化。"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "email": "メール",
+    "site": "公式サイト",
+    "store": "デモストア"
+  },
+  "vfr": {
+    "title": "バーチャル試着室",
+    "shirtName": "ナイキTシャツ",
+    "shoeName": "ナイキスニーカー",
+    "sizes": "選べるサイズ：",
+    "btnTry": "バーチャル試着室",
+    "btnChart": "サイズ表",
+    "modalTry": "バーチャル試着室",
+    "modalChart": "サイズ表"
+  }
+}

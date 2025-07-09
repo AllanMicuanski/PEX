@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ReactDOM from 'react-dom';
 import './Szbbtn.css';
 
@@ -28,6 +29,7 @@ const ModalIframe = ({ src, title, onClose }) => {
 const Szbbtn = () => {
   const [iframeType, setIframeType] = useState(null);
 
+  const { t } = useTranslation();
   const iframeData = {
     vfr: {
       src: "https://new-shoe-master.dse3qg8n6oln8.amplifyapp.com/?mode=vfr&id=7434461&sid=068CFE3F4C19797d2d3427374d96be236a8910fc183c&lang=br&tenantId=1039&pageProductImg=https://cdn.vnda.com.br/1920x/tupode/2025/03/12/14_26_32_364_14_3_7_794_a481f28b640e77ab981101c70ab7ec74.png?v=1741800397&backdropWidth=1449&backdropHeight=927&showBackdropLoading=true&sizeSystem=BR&isMeasurementsTableEnabled=true&brandsComparison=true",
@@ -44,11 +46,11 @@ const Szbbtn = () => {
       <div className="shoe vfr-btns-container">
         <button className="shoe vfr-btn" onClick={() => setIframeType('vfr')}>
           <span className="icon" aria-hidden="true"></span>
-          Provador Virtual
+          {t('vfr.btnTry')}
         </button>
         <button className="shoe chart-btn" onClick={() => setIframeType('chart')}>
           <span className="icon" aria-hidden="true"></span>
-          Tabela de Medidas
+          {t('vfr.btnChart')}
         </button>
       </div>
 

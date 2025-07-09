@@ -1,0 +1,88 @@
+{
+  "menu": {
+    "about": "über uns",
+    "howwork": "wie es funktioniert",
+    "clients": "erfolgsgeschichten",
+    "virtual": "virtuelle umkleidekabine",
+    "contact": "kontakt"
+  },
+  "footer": {
+    "copyright": "Alle Rechte vorbehalten.",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cases": "Fälle",
+    "powered": "Powered by: Allan Micuanski"
+  },
+  "hero": {
+    "title": "Wir glauben, dass...",
+    "comfort": "KOMFORT",
+    "sale": "VERKAUFT"
+  },
+  "about": {
+    "title": "Über uns",
+    "historyTitle": "Unsere Geschichte",
+    "historyP1": "Seit 2014 helfen wir Online-Modehändlern, mehr zu verkaufen. Sizebay wurde gegründet, um eine der größten Herausforderungen der Branche zu lösen: die richtige Größe zu finden.",
+    "historyP2": "Wir vereinen Anthropometrie, Mode, Statistik und Technologie, um Size & Fit zu schaffen – ein Tool, das Rückgaben reduziert und das Vertrauen beim Kauf erhöht.",
+    "impactTitle": "Wie wir wirken",
+    "impactStores": "Shops: mehr Conversions, weniger Rückgaben.",
+    "impactConsumers": "Kunden: einkaufen ohne Frust.",
+    "impactManufacturers": "Hersteller: Einblicke zur Optimierung von Kollektionen.",
+    "impactEnvironment": "Umwelt: weniger Abfall, weniger Impact.",
+    "expertiseTitle": "Unsere Expertise",
+    "expertiseP": "Wir arbeiten an der Schnittstelle von Mode, Technologie und Performance. KI, E-Commerce, Textil – wir verbinden technisches Know-how und strategische Vision für echte Ergebnisse.",
+    "valuesTitle": "Unsere Werte",
+    "values1": "Bereit sein zu führen",
+    "values2": "Zeigen, dass es dir wichtig ist",
+    "values3": "Die Herausforderung annehmen",
+    "values4": "Einzigartigkeit wertschätzen",
+    "values5": "Mit Effizienz begeistern",
+    "globalTitle": "Globale Präsenz",
+    "globalP1": "Wir betreuen Shops in über 60 Ländern, mit Lösungen in über 30 Sprachen. Unsere Systeme sind sicher, skalierbar und entsprechen den wichtigsten Datenschutzgesetzen.",
+    "globalP2": "Für weitere Informationen zu Datenschutz, Versicherungen und unserer Politik schreiben Sie an ",
+    "privacyEmail": "privacy@sizebay.com"
+  },
+  "howwork": {
+    "title": "Wie funktioniert es?",
+    "videoTitle": "Erklärungsvideo"
+  },
+  "clients": {
+    "title": "erfolgsgeschichten",
+    "readCase": "Lesen Sie den vollständigen Case",
+    "lanidor": {
+      "title": "Lanidor",
+      "text": "Beeindruckende Ergebnisse mit der virtuellen Umkleidekabine im E-Commerce der portugiesischen Marke."
+    },
+    "miik": {
+      "title": "Miik",
+      "text": "Kanadischer Shop steigerte den durchschnittlichen Warenkorb um 202% mit Sizebay."
+    },
+    "bunnies": {
+      "title": "Bunnies JR",
+      "text": "Einfachheit, Präzision und intuitive Erfahrung für die Kunden der Kindermarke."
+    },
+    "intimissimi": {
+      "title": "Intimissimi",
+      "text": "Weniger Rückgaben und mehr Conversion mit Sizefit."
+    },
+    "osklen": {
+      "title": "Osklen",
+      "text": "19% höherer Warenkorb und optimiertes Einkaufserlebnis mit der virtuellen Umkleidekabine."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "email": "E-Mail",
+    "site": "Offizielle Website",
+    "store": "Demo-Shop"
+  },
+  "vfr": {
+    "title": "Virtuelle Umkleidekabine",
+    "shirtName": "Nike T-Shirt",
+    "shoeName": "Nike Sneaker",
+    "sizes": "Verfügbare Größen:",
+    "btnTry": "Virtuelle Umkleidekabine",
+    "btnChart": "Größentabelle",
+    "modalTry": "Virtuelle Umkleidekabine",
+    "modalChart": "Größentabelle"
+  }
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ReactDOM from 'react-dom';
 import './Szbbtn.css';
 
@@ -28,14 +29,15 @@ const ModalIframe = ({ src, title, onClose }) => {
 const Szbbtn = () => {
   const [iframeType, setIframeType] = useState(null);
 
+  const { t } = useTranslation();
   const iframeData = {
     vfr: {
       src: "https://vfr-v3-production.sizebay.technology/V4/?mode=vfr&id=6834311&sid=06880E263BCB4b8077ebb5f44646aa198a216682a13b&lang=br&pageProductImg=https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/mkd/media/uploads/produtos/foto/qfificra/camiseta-nike-sb-large-logo-black.jpeg&tenantId=1039&configProfile=infoBox&backdropWidth=1920&backdropHeight=927&showBackdropLoading=true&sizeSystem=BR",
-      title: "Provador Virtual"
+      title: t('vfr.modalTry')
     },
     chart: {
       src: "https://vfr-v3-production.sizebay.technology/V4/?mode=chart&id=6834311&sid=06880E263BCB4b8077ebb5f44646aa198a216682a13b&lang=br&pageProductImg=https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/mkd/media/uploads/produtos/foto/qfificra/camiseta-nike-sb-large-logo-black.jpeg&tenantId=1039&configProfile=infoBox&backdropWidth=1449&backdropHeight=927&showBackdropLoading=true&sizeSystem=BR",
-      title: "Tabela de Medidas"
+      title: t('vfr.modalChart')
     }
   };
 
@@ -44,11 +46,11 @@ const Szbbtn = () => {
       <div className="vfr-btns-container">
         <button className="vfr-btn" onClick={() => setIframeType('vfr')}>
           <span className="icon" aria-hidden="true"></span>
-          Provador Virtual
+          {t('vfr.btnTry')}
         </button>
         <button className="chart-btn" onClick={() => setIframeType('chart')}>
           <span className="icon" aria-hidden="true"></span>
-          Tabela de Medidas
+          {t('vfr.btnChart')}
         </button>
       </div>
 
