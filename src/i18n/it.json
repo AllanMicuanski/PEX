@@ -1,0 +1,88 @@
+{
+  "menu": {
+    "about": "chi siamo",
+    "howwork": "come funziona",
+    "clients": "casi di successo",
+    "virtual": "camerino virtuale",
+    "contact": "contatto"
+  },
+  "footer": {
+    "copyright": "Tutti i diritti riservati.",
+    "about": "Chi siamo",
+    "contact": "Contatto",
+    "cases": "Casi",
+    "powered": "Powered by: Allan Micuanski"
+  },
+  "hero": {
+    "title": "Noi crediamo che...",
+    "comfort": "COMFORT",
+    "sale": "VENDE"
+  },
+  "about": {
+    "title": "Chi siamo",
+    "historyTitle": "La nostra storia",
+    "historyP1": "Dal 2014 aiutiamo i rivenditori di moda online a vendere di più. Sizebay è nata per risolvere una delle maggiori sfide del settore: trovare la taglia giusta.",
+    "historyP2": "Unendo antropometria, moda, statistiche e tecnologia, abbiamo creato Size & Fit – uno strumento che riduce i resi e aumenta la fiducia nell'acquisto.",
+    "impactTitle": "Come impattiamo",
+    "impactStores": "Negozi: più conversioni, meno resi.",
+    "impactConsumers": "Consumatori: acquisti senza frustrazioni.",
+    "impactManufacturers": "Produttori: insight che ottimizzano le collezioni.",
+    "impactEnvironment": "Ambiente: meno sprechi, meno impatto.",
+    "expertiseTitle": "La nostra esperienza",
+    "expertiseP": "Operiamo all'intersezione tra moda, tecnologia e performance. IA, e-commerce, tessile – uniamo conoscenza tecnica e visione strategica per generare risultati concreti.",
+    "valuesTitle": "I nostri valori",
+    "values1": "Sii pronto a guidare",
+    "values2": "Dimostra che ci tieni",
+    "values3": "Abbraccia la sfida",
+    "values4": "Valorizza l'unicità",
+    "values5": "Incanta con efficienza",
+    "globalTitle": "Presenza globale",
+    "globalP1": "Serviamo negozi in oltre 60 paesi, con soluzioni in oltre 30 lingue. I nostri sistemi sono sicuri, scalabili e conformi alle principali normative sui dati.",
+    "globalP2": "Per maggiori informazioni su privacy, assicurazioni e la nostra politica, scrivi a ",
+    "privacyEmail": "privacy@sizebay.com"
+  },
+  "howwork": {
+    "title": "Come funziona?",
+    "videoTitle": "Video esplicativo"
+  },
+  "clients": {
+    "title": "casi di successo",
+    "readCase": "Leggi il caso completo",
+    "lanidor": {
+      "title": "Lanidor",
+      "text": "Risultati notevoli con il camerino virtuale integrato nell'e-commerce del marchio portoghese."
+    },
+    "miik": {
+      "title": "Miik",
+      "text": "Il negozio canadese ha aumentato il ticket medio del 202% con Sizebay."
+    },
+    "bunnies": {
+      "title": "Bunnies JR",
+      "text": "Facilità, precisione ed esperienza intuitiva per i clienti del marchio per bambini."
+    },
+    "intimissimi": {
+      "title": "Intimissimi",
+      "text": "Riduzione dei resi e aumento della conversione con Sizefit."
+    },
+    "osklen": {
+      "title": "Osklen",
+      "text": "Ticket medio superiore del 19% ed esperienza di acquisto ottimizzata con il camerino virtuale."
+    }
+  },
+  "contact": {
+    "title": "Contatto",
+    "email": "Email",
+    "site": "Sito Ufficiale",
+    "store": "Negozio Demo"
+  },
+  "vfr": {
+    "title": "Camerino Virtuale",
+    "shirtName": "Maglietta Nike",
+    "shoeName": "Scarpe Nike",
+    "sizes": "Taglie disponibili:",
+    "btnTry": "Camerino Virtuale",
+    "btnChart": "Tabella Taglie",
+    "modalTry": "Camerino Virtuale",
+    "modalChart": "Tabella Taglie"
+  }
+}

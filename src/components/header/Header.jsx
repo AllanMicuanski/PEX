@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { slide as Menu } from "react-burger-menu";
+import { useTranslation } from "react-i18next";
 import "./Header.css";
 
 function Header() {
   const [showAudaces, setShowAudaces] = useState(false);
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -11,6 +13,8 @@ function Header() {
     }, 10000);
     return () => clearInterval(interval);
   }, []);
+
+
 
   return (
     <header>
@@ -42,21 +46,20 @@ function Header() {
             )}
           </div>
         </a>
-
         <nav className="desktop-menu">
-          <a href="#about">sobre</a>
-          <a href="#howwork">como funciona</a>
-          <a href="#clients">cases de sucesso</a>
-          <a href="#virtual">provador virtual</a>
-          <a href="#contact">contato</a>
+          <a href="#about">{t('menu.about')}</a>
+          <a href="#howwork">{t('menu.howwork')}</a>
+          <a href="#clients">{t('menu.clients')}</a>
+          <a href="#virtual">{t('menu.virtual')}</a>
+          <a href="#contact">{t('menu.contact')}</a>
         </nav>
 
         <Menu right width={"250px"} className="mobile-menu">
-          <a className="menu-item" href="#about">sobre</a>
-          <a className="menu-item" href="#howwork">como funciona</a>
-          <a className="menu-item" href="#clients">cases de sucesso</a>
-          <a className="menu-item" href="#virtual">provador virtual</a>
-          <a className="menu-item" href="#contact">contato</a>
+          <a className="menu-item" href="#about">{t('menu.about')}</a>
+          <a className="menu-item" href="#howwork">{t('menu.howwork')}</a>
+          <a className="menu-item" href="#clients">{t('menu.clients')}</a>
+          <a className="menu-item" href="#virtual">{t('menu.virtual')}</a>
+          <a className="menu-item" href="#contact">{t('menu.contact')}</a>
         </Menu>
       </div>
     </header>

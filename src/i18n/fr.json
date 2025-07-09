@@ -1,0 +1,88 @@
+{
+  "menu": {
+    "about": "à propos",
+    "howwork": "comment ça marche",
+    "clients": "cas de succès",
+    "virtual": "cabine d'essayage virtuelle",
+    "contact": "contact"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "about": "À propos",
+    "contact": "Contact",
+    "cases": "Cas",
+    "powered": "Powered by: Allan Micuanski"
+  },
+  "hero": {
+    "title": "Nous croyons que...",
+    "comfort": "CONFORT",
+    "sale": "VEND"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "historyTitle": "Notre histoire",
+    "historyP1": "Depuis 2014, nous aidons les détaillants de mode en ligne à vendre plus. Sizebay est née pour résoudre l'un des plus grands défis du secteur : trouver la bonne taille.",
+    "historyP2": "Nous combinons anthropométrie, mode, statistiques et technologie pour créer Size & Fit – un outil qui réduit les retours et augmente la confiance lors de l'achat.",
+    "impactTitle": "Notre impact",
+    "impactStores": "Magasins : plus de conversions, moins de retours.",
+    "impactConsumers": "Consommateurs : achats sans frustration.",
+    "impactManufacturers": "Fabricants : des insights pour optimiser les collections.",
+    "impactEnvironment": "Environnement : moins de gaspillage, moins d'impact.",
+    "expertiseTitle": "Notre expertise",
+    "expertiseP": "Nous opérons à l'intersection de la mode, de la technologie et de la performance. IA, e-commerce, textile – nous allions expertise technique et vision stratégique pour des résultats concrets.",
+    "valuesTitle": "Nos valeurs",
+    "values1": "Soyez prêt à guider",
+    "values2": "Montrez que vous vous souciez",
+    "values3": "Relevez le défi",
+    "values4": "Valorisez l'unicité",
+    "values5": "Émerveillez par l'efficacité",
+    "globalTitle": "Présence mondiale",
+    "globalP1": "Nous desservons des magasins dans plus de 60 pays, avec des solutions dans plus de 30 langues. Nos systèmes sont sûrs, évolutifs et conformes aux principales réglementations sur les données.",
+    "globalP2": "Pour plus d'informations sur la confidentialité, les assurances et notre politique, écrivez à ",
+    "privacyEmail": "privacy@sizebay.com"
+  },
+  "howwork": {
+    "title": "Comment ça marche ?",
+    "videoTitle": "Vidéo explicative"
+  },
+  "clients": {
+    "title": "cas de succès",
+    "readCase": "Lire le cas complet",
+    "lanidor": {
+      "title": "Lanidor",
+      "text": "Résultats impressionnants avec la cabine d'essayage virtuelle intégrée à l'e-commerce de la marque portugaise."
+    },
+    "miik": {
+      "title": "Miik",
+      "text": "Le magasin canadien a augmenté le panier moyen de 202% avec Sizebay."
+    },
+    "bunnies": {
+      "title": "Bunnies JR",
+      "text": "Facilité, précision et expérience intuitive pour les clients de la marque enfantine."
+    },
+    "intimissimi": {
+      "title": "Intimissimi",
+      "text": "Réduction des retours et augmentation de la conversion avec Sizefit."
+    },
+    "osklen": {
+      "title": "Osklen",
+      "text": "Panier moyen supérieur de 19% et expérience d'achat optimisée avec la cabine d'essayage virtuelle."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "site": "Site Officiel",
+    "store": "Boutique Démo"
+  },
+  "vfr": {
+    "title": "Cabine d'essayage virtuelle",
+    "shirtName": "T-shirt Nike",
+    "shoeName": "Baskets Nike",
+    "sizes": "Tailles disponibles :",
+    "btnTry": "Cabine d'essayage virtuelle",
+    "btnChart": "Tableau des tailles",
+    "modalTry": "Cabine d'essayage virtuelle",
+    "modalChart": "Tableau des tailles"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "menu": {
+    "about": "关于我们",
+    "howwork": "如何运作",
+    "clients": "成功案例",
+    "virtual": "虚拟试衣间",
+    "contact": "联系"
+  },
+  "footer": {
+    "copyright": "版权所有。",
+    "about": "关于我们",
+    "contact": "联系",
+    "cases": "案例",
+    "powered": "Powered by: Allan Micuanski"
+  },
+  "hero": {
+    "title": "我们相信...",
+    "comfort": "舒适",
+    "sale": "销售"
+  },
+  "about": {
+    "title": "关于我们",
+    "historyTitle": "我们的历史",
+    "historyP1": "自2014年以来，我们帮助在线时尚零售商提高销量。Sizebay 诞生于解决行业最大难题之一：找到合适的尺码。",
+    "historyP2": "我们结合人体测量、时尚、统计和技术，创造了 Size & Fit —— 一个减少退货并提升购买信心的工具。",
+    "impactTitle": "我们的影响",
+    "impactStores": "商店：更多转化，更少退货。",
+    "impactConsumers": "消费者：无挫折购物。",
+    "impactManufacturers": "制造商：优化系列的洞察。",
+    "impactEnvironment": "环境：更少浪费，更少影响。",
+    "expertiseTitle": "我们的专长",
+    "expertiseP": "我们活跃于时尚、技术与绩效的交汇处。AI、电商、纺织——我们结合技术知识与战略视野，带来真实成果。",
+    "valuesTitle": "我们的价值观",
+    "values1": "准备好引领",
+    "values2": "展现关怀",
+    "values3": "迎接挑战",
+    "values4": "重视独特性",
+    "values5": "高效打动",
+    "globalTitle": "全球影响力",
+    "globalP1": "我们为60多个国家的商店提供服务，支持30多种语言。我们的系统安全、可扩展，并符合主要数据法规。",
+    "globalP2": "如需了解更多关于隐私、保险和政策的信息，请写信至 ",
+    "privacyEmail": "privacy@sizebay.com"
+  },
+  "howwork": {
+    "title": "如何运作？",
+    "videoTitle": "说明视频"
+  },
+  "clients": {
+    "title": "成功案例",
+    "readCase": "阅读完整案例",
+    "lanidor": {
+      "title": "Lanidor",
+      "text": "葡萄牙品牌电商集成虚拟试衣间，成效显著。"
+    },
+    "miik": {
+      "title": "Miik",
+      "text": "加拿大门店通过 Sizebay 将客单价提升了 202%。"
+    },
+    "bunnies": {
+      "title": "Bunnies JR",
+      "text": "为儿童品牌客户带来便捷、精准和直观体验。"
+    },
+    "intimissimi": {
+      "title": "Intimissimi",
+      "text": "通过 Sizefit 减少退货并提升转化率。"
+    },
+    "osklen": {
+      "title": "Osklen",
+      "text": "虚拟试衣间助力客单价提升 19%，购物体验优化。"
+    }
+  },
+  "contact": {
+    "title": "联系",
+    "email": "电子邮件",
+    "site": "官方网站",
+    "store": "演示商店"
+  },
+  "vfr": {
+    "title": "虚拟试衣间",
+    "shirtName": "耐克T恤",
+    "shoeName": "耐克运动鞋",
+    "sizes": "可选尺码：",
+    "btnTry": "虚拟试衣间",
+    "btnChart": "尺码表",
+    "modalTry": "虚拟试衣间",
+    "modalChart": "尺码表"
+  }
+}
