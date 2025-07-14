@@ -342,6 +342,30 @@ nav a:hover {
   }
 }
 
+/* Estilos específicos para idioma japonês */
+.japanese-font .desktop-menu {
+  font-size: 1.1rem; /* menor que 1.3rem */
+}
+
+.japanese-font .desktop-menu a {
+  font-size: 1.1rem;
+}
+
+.japanese-font .language-dropdown {
+  font-size: 0.8rem; /* menor que 0.9rem */
+}
+
+.japanese-font .mobile-language-dropdown {
+  font-size: 0.9rem; /* menor que 1rem */
+}
+
+/* Mobile específico para japonês */
+@media (max-width: 768px) {
+  .japanese-font .bm-item {
+    font-size: 1em; /* menor que 1.15em */
+  }
+}
+
 .bm-menu-wrap {
   position: fixed !important;
   top: 0;

@@ -19,7 +19,7 @@ function Header() {
   };
 
   return (
-    <header>
+    <header className={i18n.language === 'jp' ? 'japanese-font' : ''}>
       <div className="container">
         <a href="#home" className="logo-container">
           <div className="logo-fade-wrapper">
