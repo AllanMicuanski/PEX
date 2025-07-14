@@ -14,7 +14,9 @@ function Header() {
     return () => clearInterval(interval);
   }, []);
 
-
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <header>
@@ -46,13 +48,33 @@ function Header() {
             )}
           </div>
         </a>
-        <nav className="desktop-menu">
-          <a href="#about">{t('menu.about')}</a>
-          <a href="#howwork">{t('menu.howwork')}</a>
-          <a href="#clients">{t('menu.clients')}</a>
-          <a href="#virtual">{t('menu.virtual')}</a>
-          <a href="#contact">{t('menu.contact')}</a>
-        </nav>
+        
+        <div className="nav-container">
+          <nav className="desktop-menu">
+            <a href="#about">{t('menu.about')}</a>
+            <a href="#howwork">{t('menu.howwork')}</a>
+            <a href="#clients">{t('menu.clients')}</a>
+            <a href="#virtual">{t('menu.virtual')}</a>
+            <a href="#contact">{t('menu.contact')}</a>
+          </nav>
+          
+          <div className="language-selector">
+            <select 
+              value={i18n.language} 
+              onChange={(e) => changeLanguage(e.target.value)}
+              className="language-dropdown"
+            >
+              <option value="pt">PT</option>
+              <option value="en">EN</option>
+              <option value="es">ES</option>
+              <option value="it">IT</option>
+              <option value="fr">FR</option>
+              <option value="de">DE</option>
+              <option value="jp">JP</option>
+              <option value="ch">CH</option>
+            </select>
+          </div>
+        </div>
 
         <Menu right width={"250px"} className="mobile-menu">
           <a className="menu-item" href="#about">{t('menu.about')}</a>
@@ -60,6 +82,23 @@ function Header() {
           <a className="menu-item" href="#clients">{t('menu.clients')}</a>
           <a className="menu-item" href="#virtual">{t('menu.virtual')}</a>
           <a className="menu-item" href="#contact">{t('menu.contact')}</a>
+          
+          <div className="mobile-language-selector">
+            <select 
+              value={i18n.language} 
+              onChange={(e) => changeLanguage(e.target.value)}
+              className="mobile-language-dropdown"
+            >
+              <option value="pt">🇧🇷 Português</option>
+              <option value="en">🇺🇸 English</option>
+              <option value="es">🇪🇸 Español</option>
+              <option value="it">🇮🇹 Italiano</option>
+              <option value="fr">🇫🇷 Français</option>
+              <option value="de">🇩🇪 Deutsch</option>
+              <option value="jp">🇯🇵 日本語</option>
+              <option value="ch">🇨🇳 中文</option>
+            </select>
+          </div>
         </Menu>
       </div>
     </header>
