@@ -7,7 +7,15 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  width: max-content;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.vfr-btn,
+.chart-btn {
+  min-width: 120px;
+  text-align: center;
 }
 
 .vfr-btn,
@@ -57,7 +65,7 @@
   margin-top: 1px;
 }
 .chart-btn .icon {
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .vfr-btn .icon::before {
@@ -142,5 +150,17 @@
   .vfr-app {
     width: 100%;
     height: 100%;
+  }
+
+  .vfr-btns-container {
+    gap: 6px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vfr-btn,
+  .chart-btn {
+    min-width: 120px;
+    text-align: center;
   }
 }
