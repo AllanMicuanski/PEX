@@ -89,24 +89,44 @@
     "title": "Domande Frequenti",
     "questions": [
       {
-        "question": "Come funziona il sistema di misurazione di Sizebay?",
-        "answer": "Il nostro sistema utilizza l'intelligenza artificiale per analizzare le misure dell'utente e raccomandare la taglia ideale basandosi sui dati storici di prodotti simili."
+        "question": "Cos'è il camerino virtuale?",
+        "answer": "Il camerino virtuale è un'applicazione installata nell'e-commerce che utilizza le informazioni dell'utente per rendere l'esperienza di prova di taglia e vestibilità più simile a quella che offre un negozio fisico. L'utente fornisce i propri dati corporei (altezza, peso, età) e lo strumento utilizza algoritmi di machine learning e database antropometrici per suggerire la taglia ideale."
       },
       {
-        "question": "Sizebay funziona per tutti i tipi di prodotti?",
-        "answer": "Sì! Attualmente offriamo soluzioni per abbigliamento, calzature e accessori, con algoritmi specifici per ogni categoria di prodotto."
+        "question": "Quali segmenti serve il camerino virtuale?",
+        "answer": "Sizebay utilizza uno strumento di raccomandazione basato sull'antropometria e serve abbigliamento (femminile, maschile, infantile e taglie forti) e calzature."
       },
       {
-        "question": "Come posso integrare Sizebay nel mio e-commerce?",
-        "answer": "L'integrazione è semplice e veloce. Il nostro team tecnico ti accompagna durante tutto il processo, dall'implementazione alla formazione del team."
+        "question": "Come funziona il camerino virtuale Size & Fit?",
+        "answer": "Lo strumento utilizza dati corporei come peso, altezza, età, e chiede anche all'utente di validare la distribuzione della massa corporea. L'antropometria viene applicata a questi dati per stimare fino a 7 misure corporee con grande precisione. L'algoritmo incrocia i dati corporei con le tabelle delle misure per creare suggerimenti specifici."
       },
       {
-        "question": "Qual è la precisione delle raccomandazioni di taglia?",
-        "answer": "La nostra tecnologia ha oltre il 95% di precisione nelle raccomandazioni, riducendo significativamente cambi e resi."
+        "question": "Come funziona il camerino virtuale per calzature?",
+        "answer": "Il cliente informa un marchio di calzature che usa abitualmente e il tipo di calzatura che usa di più. Lo strumento identifica la forma del piede (stretto, regolare o largo) e il numero che utilizza. Incrociamo queste informazioni con le misure del prodotto per generare una raccomandazione di taglia!"
       },
       {
-        "question": "Il sistema funziona su dispositivi mobili?",
-        "answer": "Sì! Sizebay è completamente responsivo e funziona perfettamente su smartphone, tablet e desktop."
+        "question": "Qual è il prezzo del camerino virtuale?",
+        "answer": "I nostri piani sono personalizzati e adatti alle dimensioni del tuo negozio virtuale. Sizebay ha piani che vanno da XS a XXL, oltre a piani personalizzati. Richiedi una dimostrazione gratuita per conoscere i prezzi."
+      },
+      {
+        "question": "Come assumere Size & Fit?",
+        "answer": "Lavoriamo con piani su misura per il profilo del tuo negozio virtuale. Contatta il team di Sizebay per programmare una dimostrazione dello strumento senza impegno. In questo incontro ti mostreremo come la soluzione può soddisfare le esigenze del tuo e-commerce."
+      },
+      {
+        "question": "Come integrare il camerino virtuale nel mio e-commerce?",
+        "answer": "La nostra tecnologia consente l'integrazione con una singola riga di Javascript, inclusa direttamente nel codice tramite Google Tag Manager (GTM). Utilizziamo XML (Google Merchant Center Pattern) o sincronizzazione tramite API."
+      },
+      {
+        "question": "Qual è il tempo di implementazione del camerino virtuale?",
+        "answer": "Su piattaforme e-commerce partner, l'implementazione è già nativa, basta aggiungere il camerino virtuale al tuo negozio e iniziare a usarlo. Per altri piani, il processo è personalizzato secondo le dimensioni del tuo negozio."
+      },
+      {
+        "question": "Chi può assumere il camerino virtuale?",
+        "answer": "Il camerino virtuale può essere utilizzato da negozi virtuali di tutte le dimensioni, da XS a XXL, con diritto a piani personalizzati secondo la domanda del tuo e-commerce. Per assumere, basta richiedere una dimostrazione sul nostro sito web."
+      },
+      {
+        "question": "Ha integrazione con quali piattaforme e-commerce?",
+        "answer": "Sizebay ha integrazione con tutte le principali piattaforme del mercato, incluse Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce e molto altro. Verifica l'elenco completo con il nostro team."
       }
     ]
   }

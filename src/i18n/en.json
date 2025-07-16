@@ -89,24 +89,44 @@
     "title": "Frequently Asked Questions",
     "questions": [
       {
-        "question": "How does Sizebay's measurement system work?",
-        "answer": "Our system uses artificial intelligence to analyze user measurements and recommend the ideal size based on historical data from similar products."
+        "question": "What is the virtual fitting room?",
+        "answer": "The virtual fitting room is an application installed in e-commerce that uses user information to make the size and fit testing experience more similar to what a physical store offers. Users provide their body data (height, weight, age) and the tool uses machine learning algorithms and anthropometric databases to suggest the ideal size."
       },
       {
-        "question": "Does Sizebay work for all types of products?",
-        "answer": "Yes! We currently offer solutions for clothing, footwear, and accessories, with specific algorithms for each product category."
+        "question": "Which segments does the virtual fitting room serve?",
+        "answer": "Sizebay uses a recommendation tool based on anthropometry and serves clothing (women's, men's, children's and plus size) and footwear."
       },
       {
-        "question": "How can I integrate Sizebay into my e-commerce?",
-        "answer": "Integration is simple and fast. Our technical team accompanies you throughout the entire process, from implementation to team training."
+        "question": "How does the Size & Fit virtual fitting room work?",
+        "answer": "The tool uses body data such as weight, height, age, and also asks the user to validate body mass distribution. Anthropometry is applied to this data to estimate up to 7 body measurements with great precision. The algorithm crosses body data with measurement tables to create specific suggestions."
       },
       {
-        "question": "What is the accuracy of size recommendations?",
-        "answer": "Our technology has over 95% accuracy in recommendations, significantly reducing exchanges and returns."
+        "question": "How does the footwear virtual fitting room work?",
+        "answer": "The customer informs a footwear brand they usually use and the type of footwear they most use. The tool identifies the foot shape (narrow, regular or wide) and the size they use. We cross this information with the product measurements to generate a size recommendation!"
       },
       {
-        "question": "Does the system work on mobile devices?",
-        "answer": "Yes! Sizebay is fully responsive and works perfectly on smartphones, tablets, and desktops."
+        "question": "What is the price of the virtual fitting room?",
+        "answer": "Our plans are customized and suitable for the size of your virtual store. Sizebay has plans ranging from XS to XXL, plus personalized plans. Request a free demonstration to learn about pricing."
+      },
+      {
+        "question": "How to hire Size & Fit?",
+        "answer": "We work with custom plans for your virtual store profile. Contact the Sizebay team to schedule a no-commitment tool demonstration. In this meeting we will show you how the solution can meet your e-commerce needs."
+      },
+      {
+        "question": "How to integrate the virtual fitting room into my e-commerce?",
+        "answer": "Our technology allows integration with a single Javascript line, included directly in the code via Google Tag Manager (GTM). We use XML (Google Merchant Center Pattern) or synchronization through API."
+      },
+      {
+        "question": "What is the implementation time for the virtual fitting room?",
+        "answer": "On partner e-commerce platforms, implementation is already native, just add the virtual fitting room to your store and start using it. For other plans, the process is customized according to the size of your store."
+      },
+      {
+        "question": "Who can hire the virtual fitting room?",
+        "answer": "The virtual fitting room can be used by virtual stores of all sizes, from XS to XXL, with the right to personalized plans according to your e-commerce demand. To hire, just request a demonstration on our website."
+      },
+      {
+        "question": "Does it have integration with which e-commerce platforms?",
+        "answer": "Sizebay has integration with all major market platforms, including Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce and much more. Check the complete list with our team."
       }
     ]
   }

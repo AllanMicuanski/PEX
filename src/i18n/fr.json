@@ -89,24 +89,44 @@
     "title": "Questions Fréquemment Posées",
     "questions": [
       {
-        "question": "Comment fonctionne le système de mesure de Sizebay ?",
-        "answer": "Notre système utilise l'intelligence artificielle pour analyser les mesures de l'utilisateur et recommander la taille idéale basée sur l'historique des données de produits similaires."
+        "question": "Qu'est-ce que la cabine d'essayage virtuelle ?",
+        "answer": "La cabine d'essayage virtuelle est une application installée dans l'e-commerce qui utilise les informations de l'utilisateur pour rendre l'expérience d'essayage de taille et d'ajustement plus similaire à ce qu'offre un magasin physique. L'utilisateur fournit ses données corporelles (taille, poids, âge) et l'outil utilise des algorithmes de machine learning et des bases de données anthropométriques pour suggérer la taille idéale."
       },
       {
-        "question": "Sizebay fonctionne-t-il pour tous les types de produits ?",
-        "answer": "Oui ! Nous offrons actuellement des solutions pour les vêtements, chaussures et accessoires, avec des algorithmes spécifiques pour chaque catégorie de produit."
+        "question": "Quels segments la cabine d'essayage virtuelle sert-elle ?",
+        "answer": "Sizebay utilise un outil de recommandation basé sur l'anthropométrie et sert les vêtements (féminin, masculin, enfant et grande taille) et les chaussures."
       },
       {
-        "question": "Comment puis-je intégrer Sizebay dans mon e-commerce ?",
-        "answer": "L'intégration est simple et rapide. Notre équipe technique vous accompagne tout au long du processus, de l'implémentation à la formation de l'équipe."
+        "question": "Comment fonctionne la cabine d'essayage virtuelle Size & Fit ?",
+        "answer": "L'outil utilise des données corporelles comme le poids, la taille, l'âge, et demande aussi à l'utilisateur de valider la distribution de la masse corporelle. L'anthropométrie est appliquée sur ces données pour estimer jusqu'à 7 mesures corporelles avec une grande précision. L'algorithme croise les données corporelles avec les tableaux de mesures pour créer des suggestions spécifiques."
       },
       {
-        "question": "Quelle est la précision des recommandations de taille ?",
-        "answer": "Notre technologie a plus de 95% de précision dans les recommandations, réduisant significativement les échanges et retours."
+        "question": "Comment fonctionne la cabine d'essayage virtuelle pour chaussures ?",
+        "answer": "Le client informe une marque de chaussures qu'il utilise habituellement et le type de chaussure qu'il utilise le plus. L'outil identifie la forme du pied (étroit, régulier ou large) et la pointure qu'il utilise. Nous croisons ces informations avec les mesures du produit pour générer une recommandation de taille !"
       },
       {
-        "question": "Le système fonctionne-t-il sur les appareils mobiles ?",
-        "answer": "Oui ! Sizebay est entièrement responsive et fonctionne parfaitement sur smartphones, tablettes et ordinateurs de bureau."
+        "question": "Quel est le prix de la cabine d'essayage virtuelle ?",
+        "answer": "Nos plans sont personnalisés et adaptés à la taille de votre magasin virtuel. Sizebay a des plans qui vont de XS à XXL, plus des plans personnalisés. Demandez une démonstration gratuite pour connaître les prix."
+      },
+      {
+        "question": "Comment embaucher Size & Fit ?",
+        "answer": "Nous travaillons avec des plans sur mesure pour le profil de votre magasin virtuel. Contactez l'équipe Sizebay pour programmer une démonstration de l'outil sans engagement. Dans cette réunion, nous vous montrerons comment la solution peut répondre aux besoins de votre e-commerce."
+      },
+      {
+        "question": "Comment intégrer la cabine d'essayage virtuelle à mon e-commerce ?",
+        "answer": "Notre technologie permet l'intégration avec une seule ligne de Javascript, incluse directement dans le code via Google Tag Manager (GTM). Nous utilisons XML (Google Merchant Center Pattern) ou synchronisation via API."
+      },
+      {
+        "question": "Quel est le temps d'implémentation de la cabine d'essayage virtuelle ?",
+        "answer": "Sur les plateformes e-commerce partenaires, l'implémentation est déjà native, il suffit d'ajouter la cabine d'essayage virtuelle à votre magasin et commencer à l'utiliser. Pour d'autres plans, le processus est personnalisé selon la taille de votre magasin."
+      },
+      {
+        "question": "Qui peut embaucher la cabine d'essayage virtuelle ?",
+        "answer": "La cabine d'essayage virtuelle peut être utilisée par des magasins virtuels de toutes tailles, de XS à XXL, avec droit à des plans personnalisés selon la demande de votre e-commerce. Pour embaucher, il suffit de demander une démonstration sur notre site web."
+      },
+      {
+        "question": "A-t-elle une intégration avec quelles plateformes e-commerce ?",
+        "answer": "Sizebay a une intégration avec toutes les principales plateformes du marché, y compris Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce et bien plus. Vérifiez la liste complète avec notre équipe."
       }
     ]
   }

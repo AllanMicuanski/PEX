@@ -89,24 +89,44 @@
     "title": "Perguntas Frequentes",
     "questions": [
       {
-        "question": "Como funciona o sistema de medição da Sizebay?",
-        "answer": "Nosso sistema utiliza inteligência artificial para analisar as medidas do usuário e recomendar o tamanho ideal com base no histórico de dados de produtos similares."
+        "question": "O que é o provador virtual?",
+        "answer": "O provador virtual é uma aplicação instalada no e-commerce que utiliza informações do usuário para fazer com que a experiência de prova de tamanho e caimento se torne mais parecida com o que uma loja física oferece. O usuário informa seus dados corporais (altura, peso, idade) e a ferramenta utiliza algoritmos de machine learning e bases de dados antropométricos para sugerir o tamanho ideal."
       },
       {
-        "question": "O Sizebay funciona para todos os tipos de produtos?",
-        "answer": "Sim! Atualmente oferecemos soluções para roupas, calçados e acessórios, com algoritmos específicos para cada categoria de produto."
+        "question": "Quais segmentos o provador virtual atende?",
+        "answer": "A Sizebay utiliza uma ferramenta de recomendação baseada em antropometria e atende a vestuário (feminino, masculino, infantil e plus size) e calçados."
       },
       {
-        "question": "Como posso integrar o Sizebay no meu e-commerce?",
-        "answer": "A integração é simples e rápida. Nossa equipe técnica te acompanha em todo o processo, desde a implementação até o treinamento da equipe."
+        "question": "Como funciona o provador virtual Size & Fit?",
+        "answer": "A ferramenta utiliza dados corporais como peso, altura, idade, e também pede para o usuário validar a distribuição de massa corporal. A antropometria é aplicada sobre estes dados para estimar até 7 medidas corporais com grande precisão. O algoritmo cruza os dados corporais com as tabelas de medidas para criar sugestões específicas."
       },
       {
-        "question": "Qual a precisão das recomendações de tamanho?",
-        "answer": "Nossa tecnologia possui mais de 95% de precisão nas recomendações, reduzindo significativamente as trocas e devoluções."
+        "question": "Como funciona o provador virtual de calçados?",
+        "answer": "O cliente informa uma marca de calçados que costuma utilizar e o tipo de calçado que mais usa. A ferramenta identifica o formato do pé (estreito, regular ou largo) e o número que utiliza. Cruzamos essas informações com as medidas do produto para gerar uma recomendação de tamanho!"
       },
       {
-        "question": "O sistema funciona em dispositivos móveis?",
-        "answer": "Sim! O Sizebay é totalmente responsivo e funciona perfeitamente em smartphones, tablets e desktops."
+        "question": "Qual o preço do provador virtual?",
+        "answer": "Nossos planos são personalizados e adequados ao tamanho da sua loja virtual. A Sizebay possui planos que vão do PP ao XXG, além de planos personalizados. Solicite uma demonstração gratuita para conhecer os valores."
+      },
+      {
+        "question": "Como contratar o Size & Fit?",
+        "answer": "Trabalhamos com planos sob medida para o perfil da sua loja virtual. Entre em contato com o time da Sizebay para agendarmos uma demonstração da ferramenta sem compromisso. Nessa reunião vamos mostrar como a solução pode atender às necessidades do seu e-commerce."
+      },
+      {
+        "question": "Como integrar o provador virtual ao meu e-commerce?",
+        "answer": "Nossa tecnologia permite integração com uma única linha de Javascript, incluída diretamente no código via Google Tag Manager (GTM). Utilizamos XML (Google Merchant Center Pattern) ou sincronização através de API."
+      },
+      {
+        "question": "Qual o tempo de implantação do provador virtual?",
+        "answer": "Em plataformas de e-commerce parceiras, a implantação já é nativa, basta adicionar o provador virtual à sua loja e começar a usar. Para demais planos, o processo é personalizado de acordo com o tamanho da sua loja."
+      },
+      {
+        "question": "Quem pode contratar o provador virtual?",
+        "answer": "O provador virtual pode ser utilizado por lojas virtuais de todos os tamanhos, do PP ao XXG, com direito a planos personalizados de acordo com a demanda do seu e-commerce. Para contratar, basta solicitar uma demonstração no nosso site."
+      },
+      {
+        "question": "Possui integração com quais plataformas de e-commerce?",
+        "answer": "A Sizebay possui integração com todas as principais plataformas do mercado, incluindo Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce e muito mais. Verifique a lista completa com nossa equipe."
       }
     ]
   }

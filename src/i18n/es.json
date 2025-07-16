@@ -89,24 +89,44 @@
     "title": "Preguntas Frecuentes",
     "questions": [
       {
-        "question": "¿Cómo funciona el sistema de medición de Sizebay?",
-        "answer": "Nuestro sistema utiliza inteligencia artificial para analizar las medidas del usuario y recomendar la talla ideal basándose en el historial de datos de productos similares."
+        "question": "¿Qué es el probador virtual?",
+        "answer": "El probador virtual es una aplicación instalada en el e-commerce que utiliza información del usuario para hacer que la experiencia de prueba de talla y ajuste sea más parecida a lo que ofrece una tienda física. El usuario informa sus datos corporales (altura, peso, edad) y la herramienta utiliza algoritmos de machine learning y bases de datos antropométricos para sugerir la talla ideal."
       },
       {
-        "question": "¿Sizebay funciona para todos los tipos de productos?",
-        "answer": "¡Sí! Actualmente ofrecemos soluciones para ropa, calzado y accesorios, con algoritmos específicos para cada categoría de producto."
+        "question": "¿Qué segmentos atiende el probador virtual?",
+        "answer": "Sizebay utiliza una herramienta de recomendación basada en antropometría y atiende a vestuario (femenino, masculino, infantil y tallas grandes) y calzado."
       },
       {
-        "question": "¿Cómo puedo integrar Sizebay en mi e-commerce?",
-        "answer": "La integración es simple y rápida. Nuestro equipo técnico te acompaña en todo el proceso, desde la implementación hasta la capacitación del equipo."
+        "question": "¿Cómo funciona el probador virtual Size & Fit?",
+        "answer": "La herramienta utiliza datos corporales como peso, altura, edad, y también pide al usuario validar la distribución de masa corporal. La antropometría se aplica sobre estos datos para estimar hasta 7 medidas corporales con gran precisión. El algoritmo cruza los datos corporales con las tablas de medidas para crear sugerencias específicas."
       },
       {
-        "question": "¿Cuál es la precisión de las recomendaciones de talla?",
-        "answer": "Nuestra tecnología tiene más del 95% de precisión en las recomendaciones, reduciendo significativamente los cambios y devoluciones."
+        "question": "¿Cómo funciona el probador virtual de calzado?",
+        "answer": "El cliente informa una marca de calzado que suele utilizar y el tipo de calzado que más usa. La herramienta identifica la forma del pie (estrecho, regular o ancho) y el número que utiliza. ¡Cruzamos esta información con las medidas del producto para generar una recomendación de talla!"
       },
       {
-        "question": "¿El sistema funciona en dispositivos móviles?",
-        "answer": "¡Sí! Sizebay es totalmente responsivo y funciona perfectamente en smartphones, tablets y escritorios."
+        "question": "¿Cuál es el precio del probador virtual?",
+        "answer": "Nuestros planes son personalizados y adecuados al tamaño de tu tienda virtual. Sizebay tiene planes que van desde XS hasta XXL, además de planes personalizados. Solicita una demostración gratuita para conocer los precios."
+      },
+      {
+        "question": "¿Cómo contratar Size & Fit?",
+        "answer": "Trabajamos con planes a medida para el perfil de tu tienda virtual. Contacta con el equipo de Sizebay para programar una demostración de la herramienta sin compromiso. En esta reunión te mostraremos cómo la solución puede atender las necesidades de tu e-commerce."
+      },
+      {
+        "question": "¿Cómo integrar el probador virtual a mi e-commerce?",
+        "answer": "Nuestra tecnología permite integración con una única línea de Javascript, incluida directamente en el código vía Google Tag Manager (GTM). Utilizamos XML (Google Merchant Center Pattern) o sincronización a través de API."
+      },
+      {
+        "question": "¿Cuál es el tiempo de implementación del probador virtual?",
+        "answer": "En plataformas de e-commerce socias, la implementación ya es nativa, solo hay que añadir el probador virtual a tu tienda y empezar a usarlo. Para otros planes, el proceso es personalizado según el tamaño de tu tienda."
+      },
+      {
+        "question": "¿Quién puede contratar el probador virtual?",
+        "answer": "El probador virtual puede ser utilizado por tiendas virtuales de todos los tamaños, desde XS hasta XXL, con derecho a planes personalizados según la demanda de tu e-commerce. Para contratar, solo hay que solicitar una demostración en nuestro sitio web."
+      },
+      {
+        "question": "¿Tiene integración con qué plataformas de e-commerce?",
+        "answer": "Sizebay tiene integración con todas las principales plataformas del mercado, incluyendo Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce y mucho más. Verifica la lista completa con nuestro equipo."
       }
     ]
   }
