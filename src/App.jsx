@@ -10,6 +10,7 @@ import Clients from './components/clients/Clients';
 import Contact from './components/contact/Contact';
 import Vfr from './components/vfr/Vfr';
 import Faq from './components/faq/Faq';
+import ChatBot from './components/chatbot/ChatBot';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Faq />
       </main>
       <Footer />
+      <ChatBot />
     </div>
   );
 }
