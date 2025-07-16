@@ -84,5 +84,30 @@
     "btnChart": "Tabla de Tallas",
     "modalTry": "Probador Virtual",
     "modalChart": "Tabla de Tallas"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "question": "¿Cómo funciona el sistema de medición de Sizebay?",
+        "answer": "Nuestro sistema utiliza inteligencia artificial para analizar las medidas del usuario y recomendar la talla ideal basándose en el historial de datos de productos similares."
+      },
+      {
+        "question": "¿Sizebay funciona para todos los tipos de productos?",
+        "answer": "¡Sí! Actualmente ofrecemos soluciones para ropa, calzado y accesorios, con algoritmos específicos para cada categoría de producto."
+      },
+      {
+        "question": "¿Cómo puedo integrar Sizebay en mi e-commerce?",
+        "answer": "La integración es simple y rápida. Nuestro equipo técnico te acompaña en todo el proceso, desde la implementación hasta la capacitación del equipo."
+      },
+      {
+        "question": "¿Cuál es la precisión de las recomendaciones de talla?",
+        "answer": "Nuestra tecnología tiene más del 95% de precisión en las recomendaciones, reduciendo significativamente los cambios y devoluciones."
+      },
+      {
+        "question": "¿El sistema funciona en dispositivos móviles?",
+        "answer": "¡Sí! Sizebay es totalmente responsivo y funciona perfectamente en smartphones, tablets y escritorios."
+      }
+    ]
   }
 }
