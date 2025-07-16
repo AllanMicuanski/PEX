@@ -11,12 +11,12 @@
 }
 
 .faq-title {
-  font-size: 2.5rem;
+  font-size: var(--text-4xl);
   font-weight: 700;
   text-align: center;
   margin-bottom: 3rem;
   color: white;
-  font-family: "KassiClassic", sans-serif;
+  font-family: var(--font-primary);
   text-transform: uppercase;
 }
 
@@ -47,7 +47,7 @@
 
 .faq-question {
   padding: 1.5rem;
-  font-size: 1.1rem;
+  font-size: var(--text-xl); /* padronizado */
   font-weight: 600;
   color: white;
   cursor: pointer;
@@ -57,7 +57,7 @@
   align-items: center;
   transition: all 0.3s ease;
   user-select: none;
-  font-family: "KassiClassic", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 .faq-question:hover {
@@ -69,7 +69,7 @@
 }
 
 .faq-icon {
-  font-size: 1.5rem;
+  font-size: 1.8rem; /* aumentado de 1.5rem */
   font-weight: 300;
   color: #bf512b;
   transition: transform 0.3s ease;
@@ -88,7 +88,8 @@
 
 .faq-answer p {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--text-lg); /* padronizado */
+  font-family: var(--font-secondary);
 }
 
 @keyframes fadeIn {
@@ -119,7 +120,7 @@
 
   .faq-question {
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem; /* aumentado de 1rem */
   }
 
   .faq-answer {
