@@ -28,6 +28,15 @@ const ChatBot = () => {
     }
   }, [t, messages.length]);
 
+  // Atualizar mensagem inicial quando o idioma mudar
+  useEffect(() => {
+    if (messages.length > 0 && messages[0].sender === "bot") {
+      setMessages(prev => prev.map((msg, index) => 
+        index === 0 ? { ...msg, text: t('chatbot.greeting') } : msg
+      ));
+    }
+  }, [i18n.language, t]);
+
   // Auto scroll para a última mensagem
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
