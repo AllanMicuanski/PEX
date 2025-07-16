@@ -129,5 +129,190 @@
         "answer": "Sizebay has integration with all major market platforms, including Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce and much more. Check the complete list with our team."
       }
     ]
+  },
+  "chatbot": {
+    "greeting": "Hello! I'm Sizebay's virtual assistant. How can I help you today?",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "chat_support": "Support Chat",
+    "online": "Online",
+    "open_chat": "Open chat",
+    "close_chat": "Close chat",
+    "redirecting": "🔗 Redirecting you to the requested section...",
+    "greetings": {
+      "hello": "Hello! 👋 I'm Sizebay's virtual assistant. How can I help you today?",
+      "hi": "Hi! 😊 How can I help you? I'm here to talk about our virtual fitting room!",
+      "welcome": "Welcome! 🎯 How can I help you find the perfect solution for your store?"
+    },
+    "buttons": {
+      "what_is_vfr": "What is the virtual fitting room?",
+      "see_demo": "See demonstration",
+      "test_vfr": "Test Virtual Fitting Room",
+      "open_vfr": "Open Virtual Fitting Room",
+      "see_measurements": "See Size Chart",
+      "talk_to_consultant": "Talk to consultant",
+      "how_works_clothes": "How does it work for clothes?",
+      "how_works_shoes": "How does it work for shoes?",
+      "how_to_integrate": "How to integrate into my store?",
+      "see_all_cases": "See all cases",
+      "request_demo": "Request demonstration",
+      "request_custom_demo": "Request custom demonstration",
+      "see_platforms": "See compatible platforms",
+      "talk_to_tech": "Talk to technical team",
+      "how_long_takes": "How long does it take?",
+      "schedule_demo": "Schedule demonstration",
+      "see_native_platforms": "See native platforms",
+      "check_compatibility": "Check compatibility",
+      "see_custom_integration": "See custom integration",
+      "see_complete_cases": "See complete cases",
+      "go_to_contact": "Go to Contact section",
+      "read_about_us": "Read more about us",
+      "see_values": "See our values",
+      "know_solution": "Know our solution",
+      "talk_to_agent": "Yes, talk to agent",
+      "reformulate_question": "Reformulate question",
+      "see_faq": "See frequently asked questions",
+      "provide_contact": "Provide contact details",
+      "see_contact_data": "See contact details",
+      "see_online_demo": "See online demonstration",
+      "know_cases": "Know success cases",
+      "know_history": "Know our history",
+      "prices_and_demo": "Prices and demonstration",
+      "technical_integration": "Technical integration"
+    },
+    "responses": {
+      "thank_you": "Thank you for talking to me! 😊 If you need anything else, I'll always be here. Have a great day!",
+      "can_help": "Sure! I'm here to help. 🤝 I can help you with:",
+      "unknown_intent": "Sorry, I still couldn't understand your question. 😅 Would you like to talk to one of our agents?",
+      "lets_restart": "Let's start again! 😊 How can I help you?",
+      "want_to_practice": "🎯 Want to see it in practice?",
+      "want_to_test_shoes": "👟 Want to test our shoe fitting room?",
+      "need_tech_details": "🔧 Need more technical details?",
+      "want_to_accelerate": "⚡ Want to accelerate the process?",
+      "platform_not_listed": "🛒 Your platform is not on the list?",
+      "help_better": "💡 To help you better, would you like to know:",
+      "want_to_know_how": "📊 Want to know how we can help your store?",
+      "want_more_cases": "📈 Want to see more success cases?",
+      "lead_qualification": "Great! 🎯 I'll connect you with our sales team for a personalized demonstration.\n\nTo start, what's your name?",
+      "nice_to_meet": "Nice to meet you, {name}! 😊\n\nWhat's your best email for contact?",
+      "perfect": "Perfect! And what's your phone number so we can schedule the demonstration?",
+      "last_question": "Last question: What type of store do you have? (Ex: women's fashion, shoes, children's fashion, etc.)",
+      "excellent": "Excellent, {name}! ✅\n\nWe received your data:\n📧 {email}\n📱 {phone}\n🏪 {storeType}\n\nOne of our consultants will contact you soon to schedule your free demonstration and discuss the ideal plans for your store.\n\nThank you! 🚀",
+      "understand_human_contact": "I understand! 👨‍💼 To talk to our team, I need some information:",
+      "contact_forms": "📞 **Contact Forms:**\n\n• {email}\n• {site}\n• Demonstration: {store}\n\n💬 Or continue talking to me here in the chat!",
+      "about_sizebay": "🚀 **About Sizebay:**\n\n{history1}\n\n{history2}\n\n🌍 {global}",
+      "our_cases": "🏆 **Our Success Cases:**\n\n",
+      "frequent_questions": "❓ **Frequently Asked Questions:**\n\n",
+      "which_interests": "\n💡 Which of these questions interests you most?",
+      "our_values": "💎 **Our Values:**\n\n• {value1}\n• {value2}\n• {value3}\n• {value4}\n• {value5}",
+      "default_responses": [
+        "Interesting! Can you tell me more about this? 🤔",
+        "Hmm, I'm not sure about that. Can you rephrase your question? 💭",
+        "That's a good question! How about we talk about how the virtual fitting room can help? 🎯"
+      ],
+      "want_test_visit": "🔗 Want to test? Visit our Virtual Fitting Room section!"
+    },
+    "case_success": "**Success Case:**",
+    "error_processing": "Sorry, I couldn't process that option.",
+    "error_restart": "Oops, something went wrong. Let's start again?",
+    "info_not_found": "Information not found.",
+    "element_not_found": "Element not found:",
+    "trying_navigate": "Trying to navigate to:",
+    "element_found": "Element found:",
+    "lead_qualified": "Qualified lead:",
+    "keywords": {
+      "purchase": [
+        "price",
+        "value",
+        "budget",
+        "hire",
+        "demonstration",
+        "demo",
+        "talk to sales",
+        "commercial contact",
+        "plans",
+        "how much",
+        "request",
+        "schedule"
+      ],
+      "provador_virtual": [
+        "fitting room",
+        "virtual",
+        "size",
+        "fit",
+        "measurement"
+      ],
+      "como_funciona": [
+        "how it works",
+        "operation",
+        "how to use",
+        "how to utilize"
+      ],
+      "segmentos": [
+        "segment",
+        "serves",
+        "type",
+        "category",
+        "clothing",
+        "clothes"
+      ],
+      "calcados": [
+        "footwear",
+        "shoe",
+        "sneaker",
+        "sandal",
+        "boot",
+        "slipper",
+        "foot"
+      ],
+      "integracao": [
+        "integrate",
+        "install",
+        "implement",
+        "javascript",
+        "api",
+        "xml"
+      ],
+      "tempo_implantacao": [
+        "time",
+        "deadline",
+        "implementation",
+        "deployment",
+        "how long"
+      ],
+      "plataformas": [
+        "platform",
+        "vtex",
+        "shopify",
+        "magento",
+        "nuvemshop",
+        "woocommerce"
+      ],
+      "cases": [
+        "case",
+        "success",
+        "client",
+        "result",
+        "lanidor",
+        "miik",
+        "bunnies",
+        "intimissimi",
+        "osklen"
+      ],
+      "contato": ["contact", "phone", "email", "talk", "chat"],
+      "sobre": ["about", "company", "history", "who", "sizebay"],
+      "saudacao": [
+        "hello",
+        "hi",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey"
+      ],
+      "despedida": ["bye", "thank you", "thanks", "see you", "goodbye"],
+      "ajuda": ["help", "support", "problem", "question", "don't understand"],
+      "infantil": ["children", "kids", "baby", "child"],
+      "intimo": ["intimate", "lingerie", "underwear", "bra"]
+    }
   }
 }

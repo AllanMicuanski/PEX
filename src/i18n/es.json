@@ -129,5 +129,191 @@
         "answer": "Sizebay tiene integración con todas las principales plataformas del mercado, incluyendo Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce y mucho más. Verifica la lista completa con nuestro equipo."
       }
     ]
+  },
+  "chatbot": {
+    "greeting": "¡Hola! Soy el asistente virtual de Sizebay. ¿Cómo puedo ayudarte hoy?",
+    "placeholder": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "chat_support": "Chat de Soporte",
+    "online": "En línea",
+    "open_chat": "Abrir chat",
+    "close_chat": "Cerrar chat",
+    "redirecting": "🔗 Redirigiendo a la sección solicitada...",
+    "greetings": {
+      "hello": "¡Hola! 👋 Soy el asistente virtual de Sizebay. ¿Cómo puedo ayudarte hoy?",
+      "hi": "¡Hola! 😊 ¿En qué puedo ser útil? ¡Estoy aquí para hablar sobre nuestro probador virtual!",
+      "welcome": "¡Bienvenido! 🎯 ¿Cómo puedo ayudarte a encontrar la solución perfecta para tu tienda?"
+    },
+    "buttons": {
+      "what_is_vfr": "¿Qué es el probador virtual?",
+      "see_demo": "Ver demostración",
+      "test_vfr": "Probar Probador Virtual",
+      "open_vfr": "Abrir Probador Virtual",
+      "see_measurements": "Ver Tabla de Medidas",
+      "talk_to_consultant": "Hablar con consultor",
+      "how_works_clothes": "¿Cómo funciona para ropa?",
+      "how_works_shoes": "¿Cómo funciona para calzado?",
+      "how_to_integrate": "¿Cómo integrar en mi tienda?",
+      "see_all_cases": "Ver todos los casos",
+      "request_demo": "Solicitar demostración",
+      "request_custom_demo": "Solicitar demostración personalizada",
+      "see_platforms": "Ver plataformas compatibles",
+      "talk_to_tech": "Hablar con equipo técnico",
+      "how_long_takes": "¿Cuánto tiempo toma?",
+      "schedule_demo": "Programar demostración",
+      "see_native_platforms": "Ver plataformas nativas",
+      "check_compatibility": "Verificar compatibilidad",
+      "see_custom_integration": "Ver integración personalizada",
+      "see_complete_cases": "Ver casos completos",
+      "go_to_contact": "Ir a sección Contacto",
+      "read_about_us": "Leer más sobre nosotros",
+      "see_values": "Ver nuestros valores",
+      "know_solution": "Conocer nuestra solución",
+      "talk_to_agent": "Sí, hablar con agente",
+      "reformulate_question": "Reformular pregunta",
+      "see_faq": "Ver preguntas frecuentes",
+      "provide_contact": "Proporcionar datos de contacto",
+      "see_contact_data": "Ver datos de contacto",
+      "see_online_demo": "Ver demostración en línea",
+      "know_cases": "Conocer casos de éxito",
+      "know_history": "Conocer nuestra historia",
+      "prices_and_demo": "Precios y demostración",
+      "technical_integration": "Integración técnica"
+    },
+    "responses": {
+      "thank_you": "¡Gracias por hablar conmigo! 😊 Si necesitas algo más, siempre estaré aquí. ¡Que tengas un gran día!",
+      "can_help": "¡Por supuesto! Estoy aquí para ayudar. 🤝 Puedo ayudarte con:",
+      "unknown_intent": "Lo siento, aún no pude entender tu pregunta. 😅 ¿Te gustaría hablar con uno de nuestros agentes?",
+      "lets_restart": "¡Empecemos de nuevo! 😊 ¿Cómo puedo ayudarte?",
+      "want_to_practice": "🎯 ¿Quieres verlo en la práctica?",
+      "want_to_test_shoes": "👟 ¿Quieres probar nuestro probador de calzado?",
+      "need_tech_details": "🔧 ¿Necesitas más detalles técnicos?",
+      "want_to_accelerate": "⚡ ¿Quieres acelerar el proceso?",
+      "platform_not_listed": "🛒 ¿Tu plataforma no está en la lista?",
+      "help_better": "💡 Para ayudarte mejor, ¿te gustaría saber:",
+      "want_to_know_how": "📊 ¿Quieres saber cómo podemos ayudar a tu tienda?",
+      "want_more_cases": "📈 ¿Quieres ver más casos de éxito?",
+      "lead_qualification": "¡Genial! 🎯 Te conectaré con nuestro equipo de ventas para una demostración personalizada.\n\nPara empezar, ¿cuál es tu nombre?",
+      "nice_to_meet": "¡Mucho gusto conocerte, {name}! 😊\n\n¿Cuál es tu mejor email de contacto?",
+      "perfect": "¡Perfecto! ¿Y cuál es tu teléfono para programar la demostración?",
+      "last_question": "Última pregunta: ¿Qué tipo de tienda tienes? (Ej: moda femenina, calzado, moda infantil, etc.)",
+      "excellent": "¡Excelente, {name}! ✅\n\nRecibimos tus datos:\n📧 {email}\n📱 {phone}\n🏪 {storeType}\n\nUno de nuestros consultores se pondrá en contacto pronto para programar tu demostración gratuita y discutir los planes ideales para tu tienda.\n\n¡Gracias! 🚀",
+      "understand_human_contact": "¡Entiendo! 👨‍💼 Para hablar con nuestro equipo, necesito alguna información:",
+      "contact_forms": "📞 **Formas de Contacto:**\n\n• {email}\n• {site}\n• Demostración: {store}\n\n💬 ¡O continúa hablando conmigo aquí en el chat!",
+      "about_sizebay": "🚀 **Sobre Sizebay:**\n\n{history1}\n\n{history2}\n\n🌍 {global}",
+      "our_cases": "🏆 **Nuestros Casos de Éxito:**\n\n",
+      "frequent_questions": "❓ **Preguntas Frecuentes:**\n\n",
+      "which_interests": "\n💡 ¿Cuál de estas preguntas te interesa más?",
+      "our_values": "💎 **Nuestros Valores:**\n\n• {value1}\n• {value2}\n• {value3}\n• {value4}\n• {value5}",
+      "default_responses": [
+        "¡Interesante! ¿Puedes contarme más sobre esto? 🤔",
+        "Hmm, no estoy seguro sobre eso. ¿Puedes reformular tu pregunta? 💭",
+        "¡Esa es una buena pregunta! ¿Qué tal si hablamos sobre cómo el probador virtual puede ayudar? 🎯"
+      ],
+      "want_test_visit": "🔗 ¿Quieres probarlo? ¡Visita nuestra sección de Probador Virtual!"
+    },
+    "case_success": "**Caso de Éxito:**",
+    "error_processing": "Lo siento, no pude procesar esa opción.",
+    "error_restart": "Oops, algo salió mal. ¿Empezamos de nuevo?",
+    "info_not_found": "Información no encontrada.",
+    "element_not_found": "Elemento no encontrado:",
+    "trying_navigate": "Intentando navegar a:",
+    "element_found": "Elemento encontrado:",
+    "lead_qualified": "Lead calificado:",
+    "keywords": {
+      "purchase": [
+        "precio",
+        "valor",
+        "presupuesto",
+        "contratar",
+        "demostración",
+        "demo",
+        "hablar con ventas",
+        "contacto comercial",
+        "planes",
+        "cuánto cuesta",
+        "solicitar",
+        "agendar"
+      ],
+      "provador_virtual": [
+        "probador",
+        "virtual",
+        "size",
+        "fit",
+        "tamaño",
+        "medida"
+      ],
+      "como_funciona": [
+        "cómo funciona",
+        "funcionamiento",
+        "cómo usar",
+        "cómo utilizar"
+      ],
+      "segmentos": [
+        "segmento",
+        "atiende",
+        "tipo",
+        "categoría",
+        "vestuario",
+        "ropa"
+      ],
+      "calcados": [
+        "calzado",
+        "zapato",
+        "tenis",
+        "sandalia",
+        "bota",
+        "chinela",
+        "pie"
+      ],
+      "integracao": [
+        "integra",
+        "instala",
+        "implementa",
+        "javascript",
+        "api",
+        "xml"
+      ],
+      "tempo_implantacao": [
+        "tiempo",
+        "plazo",
+        "implementación",
+        "implantación",
+        "cuánto tiempo"
+      ],
+      "plataformas": [
+        "plataforma",
+        "vtex",
+        "shopify",
+        "magento",
+        "nuvemshop",
+        "woocommerce"
+      ],
+      "cases": [
+        "case",
+        "éxito",
+        "cliente",
+        "resultado",
+        "lanidor",
+        "miik",
+        "bunnies",
+        "intimissimi",
+        "osklen"
+      ],
+      "contato": ["contacto", "teléfono", "email", "hablar", "conversar"],
+      "sobre": ["sobre", "empresa", "historia", "quién", "sizebay"],
+      "saudacao": [
+        "hola",
+        "hi",
+        "buen día",
+        "buena tarde",
+        "buena noche",
+        "hey"
+      ],
+      "despedida": ["chau", "gracias", "vale", "hasta luego", "adiós"],
+      "ajuda": ["ayuda", "soporte", "problema", "duda", "no entiendo"],
+      "infantil": ["infantil", "niños", "bebé", "niño"],
+      "intimo": ["íntimo", "lencería", "ropa interior", "sostén"]
+    }
   }
 }
