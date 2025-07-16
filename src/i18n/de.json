@@ -89,24 +89,44 @@
     "title": "Häufig gestellte Fragen",
     "questions": [
       {
-        "question": "Wie funktioniert das Messsystem von Sizebay?",
-        "answer": "Unser System nutzt künstliche Intelligenz, um die Maße des Benutzers zu analysieren und die ideale Größe basierend auf historischen Daten ähnlicher Produkte zu empfehlen."
+        "question": "Was ist die virtuelle Umkleidekabine?",
+        "answer": "Die virtuelle Umkleidekabine ist eine im E-Commerce installierte Anwendung, die Benutzerinformationen nutzt, um die Größen- und Passform-Erfahrung ähnlicher zu machen wie das, was ein physisches Geschäft bietet. Der Benutzer gibt seine Körperdaten (Größe, Gewicht, Alter) an und das Tool nutzt Machine-Learning-Algorithmen und anthropometrische Datenbanken, um die ideale Größe vorzuschlagen."
       },
       {
-        "question": "Funktioniert Sizebay für alle Produkttypen?",
-        "answer": "Ja! Wir bieten derzeit Lösungen für Kleidung, Schuhe und Accessoires mit spezifischen Algorithmen für jede Produktkategorie."
+        "question": "Welche Segmente bedient die virtuelle Umkleidekabine?",
+        "answer": "Sizebay nutzt ein auf Anthropometrie basierendes Empfehlungstool und bedient Bekleidung (Damen, Herren, Kinder und große Größen) und Schuhe."
       },
       {
-        "question": "Wie kann ich Sizebay in meinen E-Commerce integrieren?",
-        "answer": "Die Integration ist einfach und schnell. Unser technisches Team begleitet Sie durch den gesamten Prozess, von der Implementierung bis zur Teamschulung."
+        "question": "Wie funktioniert die virtuelle Umkleidekabine Size & Fit?",
+        "answer": "Das Tool nutzt Körperdaten wie Gewicht, Größe, Alter und bittet den Benutzer auch, die Körpermasse-Verteilung zu validieren. Die Anthropometrie wird auf diese Daten angewendet, um bis zu 7 Körpermaße mit großer Präzision zu schätzen. Der Algorithmus kreuzt Körperdaten mit Größentabellen, um spezifische Vorschläge zu erstellen."
       },
       {
-        "question": "Wie genau sind die Größenempfehlungen?",
-        "answer": "Unsere Technologie hat über 95% Genauigkeit bei Empfehlungen und reduziert Umtausch und Rücksendungen erheblich."
+        "question": "Wie funktioniert die virtuelle Umkleidekabine für Schuhe?",
+        "answer": "Der Kunde gibt eine Schuhmarke an, die er normalerweise benutzt, und den Schuhtyp, den er am meisten verwendet. Das Tool identifiziert die Fußform (schmal, regulär oder breit) und die Größe, die er verwendet. Wir kreuzen diese Informationen mit den Produktmaßen, um eine Größenempfehlung zu generieren!"
       },
       {
-        "question": "Funktioniert das System auf mobilen Geräten?",
-        "answer": "Ja! Sizebay ist vollständig responsiv und funktioniert perfekt auf Smartphones, Tablets und Desktops."
+        "question": "Was ist der Preis der virtuellen Umkleidekabine?",
+        "answer": "Unsere Pläne sind personalisiert und der Größe Ihres virtuellen Geschäfts angepasst. Sizebay hat Pläne von XS bis XXL, plus personalisierte Pläne. Fordern Sie eine kostenlose Demonstration an, um die Preise zu erfahren."
+      },
+      {
+        "question": "Wie kann man Size & Fit beauftragen?",
+        "answer": "Wir arbeiten mit maßgeschneiderten Plänen für das Profil Ihres virtuellen Geschäfts. Kontaktieren Sie das Sizebay-Team, um eine unverbindliche Tool-Demonstration zu vereinbaren. In diesem Meeting zeigen wir Ihnen, wie die Lösung die Bedürfnisse Ihres E-Commerce erfüllen kann."
+      },
+      {
+        "question": "Wie integriert man die virtuelle Umkleidekabine in meinen E-Commerce?",
+        "answer": "Unsere Technologie ermöglicht die Integration mit einer einzigen Javascript-Zeile, die direkt im Code über Google Tag Manager (GTM) eingebunden wird. Wir verwenden XML (Google Merchant Center Pattern) oder Synchronisation über API."
+      },
+      {
+        "question": "Wie ist die Implementierungszeit der virtuellen Umkleidekabine?",
+        "answer": "Auf Partner-E-Commerce-Plattformen ist die Implementierung bereits nativ, fügen Sie einfach die virtuelle Umkleidekabine zu Ihrem Geschäft hinzu und beginnen Sie mit der Nutzung. Für andere Pläne ist der Prozess entsprechend der Größe Ihres Geschäfts personalisiert."
+      },
+      {
+        "question": "Wer kann die virtuelle Umkleidekabine beauftragen?",
+        "answer": "Die virtuelle Umkleidekabine kann von virtuellen Geschäften aller Größen verwendet werden, von XS bis XXL, mit Recht auf personalisierte Pläne entsprechend der Nachfrage Ihres E-Commerce. Zur Beauftragung fordern Sie einfach eine Demonstration auf unserer Website an."
+      },
+      {
+        "question": "Hat sie Integration mit welchen E-Commerce-Plattformen?",
+        "answer": "Sizebay hat Integration mit allen wichtigen Marktplattformen, einschließlich Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce und vielem mehr. Überprüfen Sie die vollständige Liste mit unserem Team."
       }
     ]
   }
