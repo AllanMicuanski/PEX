@@ -135,8 +135,8 @@ const ChatBot = () => {
       return {
         text: faqData.faq.questions[3].answer + "\n\n🔗 Quer testar? Visite nossa seção de Provador Virtual!",
         options: [
-          { text: "Abrir Provador Virtual", action: "navigate", target: "#vfr" },
-          { text: "Ver Tabela de Medidas", action: "navigate", target: "#vfr" },
+          { text: "Abrir Provador Virtual", action: "navigate", target: "#virtual" },
+          { text: "Ver Tabela de Medidas", action: "navigate", target: "#virtual" },
           { text: "Como funciona para roupas?", action: "more_info", data: "vestuario" }
         ]
       };
@@ -147,7 +147,7 @@ const ChatBot = () => {
           { text: "Como funciona para roupas?", action: "more_info", data: "vestuario" },
           { text: "Como funciona para calçados?", action: "more_info", data: "calcados" },
           { text: "Como integrar na minha loja?", action: "more_info", data: "integracao" },
-          { text: "Ver demonstração", action: "navigate", target: "#vfr" }
+          { text: "Ver demonstração", action: "navigate", target: "#virtual" }
         ]
       };
     }
@@ -157,7 +157,7 @@ const ChatBot = () => {
     return {
       text: faqData.faq.questions[2].answer + "\n\n🎯 Quer ver na prática?",
       options: [
-        { text: "Ver demonstração", action: "navigate", target: "#vfr" },
+        { text: "Ver demonstração", action: "navigate", target: "#virtual" },
         { text: "Como funciona para calçados?", action: "more_info", data: "calcados" },
         { text: "Solicitar demonstração personalizada", action: "qualify_lead" }
       ]
@@ -187,7 +187,7 @@ const ChatBot = () => {
     return {
       text: faqData.faq.questions[3].answer + "\n\n👟 Quer testar nosso provador de calçados?",
       options: [
-        { text: "Testar Provador Virtual", action: "navigate", target: "#vfr" },
+        { text: "Testar Provador Virtual", action: "navigate", target: "#virtual" },
         { text: "Como funciona para roupas?", action: "more_info", data: "vestuario" }
       ]
     };
@@ -282,7 +282,7 @@ const ChatBot = () => {
       text: responses[Math.floor(Math.random() * responses.length)],
       options: [
         { text: "O que é o provador virtual?", action: "more_info", data: "provador" },
-        { text: "Ver demonstração", action: "navigate", target: "#vfr" },
+        { text: "Ver demonstração", action: "navigate", target: "#virtual" },
         { text: "Falar com consultor", action: "qualify_lead" }
       ]
     };
@@ -410,7 +410,7 @@ const ChatBot = () => {
         return {
           text: `Excelente, ${newUserData.name}! ✅\n\nRecebemos seus dados:\n📧 ${newUserData.email}\n📱 ${newUserData.phone}\n🏪 ${newUserData.storeType}\n\nUm de nossos consultores entrará em contato em breve para agendar sua demonstração gratuita e discutir os planos ideais para sua loja.\n\nObrigado! 🚀`,
           options: [
-            { text: "Ver demonstração online", action: "navigate", target: "#vfr" },
+            { text: "Ver demonstração online", action: "navigate", target: "#virtual" },
             { text: "Conhecer cases de sucesso", action: "navigate", target: "#clients" }
           ]
         };
@@ -483,12 +483,24 @@ const ChatBot = () => {
             text: "🔗 Redirecionando você para a seção solicitada...",
             navigation: option.target
           };
-          // Simula navegação
+          // Simula navegação com scroll suave
           setTimeout(() => {
             if (option.target.includes('#')) {
-              const element = document.querySelector(option.target);
+              const targetId = option.target.substring(1);
+              const element = document.getElementById(targetId);
+              console.log('Tentando navegar para:', targetId, 'Elemento encontrado:', element);
               if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
+                // Scroll com offset para compensar header fixo (se houver)
+                const headerOffset = 80;
+                const elementPosition = element.offsetTop;
+                const offsetPosition = elementPosition - headerOffset;
+                
+                window.scrollTo({
+                  top: offsetPosition,
+                  behavior: 'smooth'
+                });
+              } else {
+                console.warn('Elemento não encontrado:', targetId);
               }
             }
           }, 500);
@@ -518,7 +530,7 @@ const ChatBot = () => {
             text: "Vamos começar novamente! 😊 Como posso ajudá-lo?",
             options: [
               { text: "O que é o provador virtual?", action: "more_info", data: "provador" },
-              { text: "Ver demonstração", action: "navigate", target: "#vfr" },
+              { text: "Ver demonstração", action: "navigate", target: "#virtual" },
               { text: "Falar com consultor", action: "qualify_lead" }
             ]
           };
@@ -552,7 +564,7 @@ const ChatBot = () => {
         return {
           text: faqData.faq.questions[0].answer,
           options: [
-            { text: "Ver demonstração", action: "navigate", target: "#vfr" },
+            { text: "Ver demonstração", action: "navigate", target: "#virtual" },
             { text: "Como funciona para calçados?", action: "more_info", data: "calcados" }
           ]
         };
@@ -561,7 +573,7 @@ const ChatBot = () => {
         return {
           text: faqData.faq.questions[2].answer,
           options: [
-            { text: "Ver demonstração", action: "navigate", target: "#vfr" },
+            { text: "Ver demonstração", action: "navigate", target: "#virtual" },
             { text: "Solicitar demonstração personalizada", action: "qualify_lead" }
           ]
         };
@@ -570,7 +582,7 @@ const ChatBot = () => {
         return {
           text: faqData.faq.questions[3].answer,
           options: [
-            { text: "Testar Provador Virtual", action: "navigate", target: "#vfr" }
+            { text: "Testar Provador Virtual", action: "navigate", target: "#virtual" }
           ]
         };
         
