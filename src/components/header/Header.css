@@ -80,7 +80,7 @@ header {
 
 .logo-span {
   color: #fff;
-  font-size: 0.95rem;
+  font-size: var(--text-base);
   font-weight: 400;
   opacity: 1;
   text-decoration: none;
@@ -143,8 +143,8 @@ nav a:hover {
   gap: 1.5rem;
   color: white;
   font-weight: 500;
-  font-family: "KassiClassic", sans-serif;
-  font-size: 1.3rem;
+  font-family: var(--font-primary);
+  font-size: var(--text-2xl); /* aumentado e padronizado */
   text-transform: uppercase;
 }
 
@@ -177,8 +177,8 @@ nav a:hover {
   border: 1px solid #333;
   border-radius: 4px;
   padding: 0.3rem 0.5rem;
-  font-size: 0.9rem;
-  font-family: "KassiClassic", sans-serif;
+  font-size: var(--text-lg); /* padronizado */
+  font-family: var(--font-secondary);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -206,8 +206,8 @@ nav a:hover {
   border: 1px solid #333;
   border-radius: 4px;
   padding: 0.5rem;
-  font-size: 1rem;
-  font-family: "KassiClassic", sans-serif;
+  font-size: var(--text-xl); /* padronizado */
+  font-family: var(--font-secondary);
   cursor: pointer;
   width: 100%;
   transition: all 0.2s ease;
@@ -260,7 +260,7 @@ nav a:hover {
   .bm-menu {
     background: #131313;
     padding: 1.2em 0.8em 1.2em 1.2em;
-    font-size: 1em;
+    font-size: 1.2rem; /* aumentado de 1em */
     height: 100vh;
     overflow-y: auto;
     display: flex !important;
@@ -344,25 +344,25 @@ nav a:hover {
 
 /* Estilos específicos para idioma japonês */
 .japanese-font .desktop-menu {
-  font-size: 1.1rem; /* menor que 1.3rem */
+  font-size: 1.3rem; /* ajustado para o novo tamanho base */
 }
 
 .japanese-font .desktop-menu a {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .japanese-font .language-dropdown {
-  font-size: 0.8rem; /* menor que 0.9rem */
+  font-size: 0.9rem; /* ajustado para o novo tamanho base */
 }
 
 .japanese-font .mobile-language-dropdown {
-  font-size: 0.9rem; /* menor que 1rem */
+  font-size: 1rem; /* ajustado para o novo tamanho base */
 }
 
 /* Mobile específico para japonês */
 @media (max-width: 768px) {
   .japanese-font .bm-item {
-    font-size: 1em; /* menor que 1.15em */
+    font-size: 1.1rem; /* ajustado para o novo tamanho base */
   }
 }
 
