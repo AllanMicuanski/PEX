@@ -129,5 +129,257 @@
         "answer": "Sizebay hat Integration mit allen wichtigen Marktplattformen, einschließlich Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce und vielem mehr. Überprüfen Sie die vollständige Liste mit unserem Team."
       }
     ]
+  },
+  "chatbot": {
+    "title": "Virtueller Assistent",
+    "greeting": "Hallo! Ich bin der virtuelle Assistent von Sizebay. Wie kann ich Ihnen heute helfen?",
+    "placeholder": "Schreiben Sie Ihre Nachricht...",
+    "send": "Senden",
+    "close": "Schließen",
+    "minimize": "Minimieren",
+    "typing": "Assistent schreibt...",
+    "chat_support": "Chat-Support",
+    "online": "Online",
+    "open_chat": "Chat öffnen",
+    "close_chat": "Chat schließen",
+    "redirecting": "🔗 Sie werden zur gewünschten Sektion weitergeleitet...",
+    "greetings": {
+      "hello": "Hallo! 👋 Ich bin der virtuelle Assistent von Sizebay. Wie kann ich Ihnen heute helfen?",
+      "hi": "Hi! 😊 Womit kann ich Ihnen behilflich sein? Ich bin hier, um über unsere virtuelle Umkleidekabine zu sprechen!",
+      "welcome": "Willkommen! 🎯 Wie kann ich Ihnen helfen, die perfekte Lösung für Ihr Geschäft zu finden?"
+    },
+    "messages": {
+      "welcome": "Hallo! Ich bin Ihr virtueller Assistent. Wie kann ich Ihnen heute helfen?",
+      "defaultResponse": "Entschuldigung, ich konnte Ihre Nachricht nicht verstehen. Könnten Sie sie anders formulieren oder eine der verfügbaren Optionen wählen?",
+      "contactRedirect": "Ich leite Sie zur Kontaktseite weiter, wo Sie alle notwendigen Informationen finden.",
+      "aboutRedirect": "Ich leite Sie zur Über-uns-Seite weiter, wo Sie mehr über unser Unternehmen erfahren.",
+      "howWorkRedirect": "Ich leite Sie zur Seite 'Wie es funktioniert' weiter, wo Sie verstehen können, wie unsere Lösung funktioniert.",
+      "vfrRedirect": "Ich leite Sie zur Virtual Fitting Room weiter, wo Sie unsere Technologie testen können."
+    },
+    "buttons": {
+      "contact": "Kontakt",
+      "about": "Über uns",
+      "howWork": "Wie es funktioniert",
+      "vfr": "Virtual Fitting Room",
+      "help": "Hilfe",
+      "info": "Informationen",
+      "what_is_vfr": "Was ist die virtuelle Umkleidekabine?",
+      "see_demo": "Demonstration ansehen",
+      "test_vfr": "Virtuelle Umkleidekabine testen",
+      "open_vfr": "Virtuelle Umkleidekabine öffnen",
+      "see_measurements": "Maßtabelle anzeigen",
+      "talk_to_consultant": "Mit Berater sprechen",
+      "how_works_clothes": "Wie funktioniert es für Kleidung?",
+      "how_works_shoes": "Wie funktioniert es für Schuhe?",
+      "how_to_integrate": "Wie in meinen Shop integrieren?",
+      "see_all_cases": "Alle Fälle ansehen",
+      "request_demo": "Demonstration anfordern",
+      "request_custom_demo": "Personalisierte Demonstration anfordern",
+      "see_platforms": "Kompatible Plattformen anzeigen",
+      "talk_to_tech": "Mit technischem Team sprechen",
+      "how_long_takes": "Wie lange dauert es?",
+      "schedule_demo": "Demonstration terminieren",
+      "see_native_platforms": "Native Plattformen anzeigen",
+      "check_compatibility": "Kompatibilität prüfen",
+      "see_custom_integration": "Benutzerdefinierte Integration anzeigen",
+      "see_complete_cases": "Vollständige Fälle anzeigen",
+      "go_to_contact": "Zur Kontakt-Sektion gehen",
+      "read_about_us": "Mehr über uns lesen",
+      "see_values": "Unsere Werte sehen",
+      "know_solution": "Unsere Lösung kennenlernen",
+      "talk_to_agent": "Ja, mit Mitarbeiter sprechen",
+      "reformulate_question": "Frage umformulieren",
+      "see_faq": "Häufig gestellte Fragen ansehen",
+      "provide_contact": "Kontaktdaten angeben",
+      "see_contact_data": "Kontaktdaten anzeigen",
+      "see_online_demo": "Online-Demonstration ansehen",
+      "know_cases": "Erfolgsgeschichten kennenlernen",
+      "know_history": "Unsere Geschichte kennenlernen",
+      "prices_and_demo": "Preise und Demonstration",
+      "technical_integration": "Technische Integration"
+    },
+    "responses": {
+      "contact": "Gerne helfe ich Ihnen mit Kontaktinformationen! Sie können uns erreichen über unsere Kontaktseite.",
+      "about": "Möchten Sie mehr über unser Unternehmen erfahren? Besuchen Sie unsere Über-uns-Seite!",
+      "howWork": "Interessiert daran, wie unsere Lösung funktioniert? Schauen Sie sich unsere Erklärungsseite an!",
+      "vfr": "Möchten Sie unsere Virtual Fitting Room Technologie ausprobieren? Ich kann Sie dorthin weiterleiten!",
+      "help": "Ich bin hier, um zu helfen! Was möchten Sie über unsere Dienste wissen?",
+      "greeting": "Hallo! Schön, Sie zu treffen. Wie kann ich Ihnen heute behilflich sein?",
+      "thank_you": "Danke, dass Sie mit mir gesprochen haben! 😊 Wenn Sie noch etwas brauchen, bin ich immer hier. Haben Sie einen großartigen Tag!",
+      "can_help": "Natürlich! Ich bin hier, um zu helfen. 🤝 Ich kann Ihnen helfen mit:",
+      "unknown_intent": "Es tut mir leid, ich konnte Ihre Frage noch nicht verstehen. 😅 Möchten Sie mit einem unserer Mitarbeiter sprechen?",
+      "lets_restart": "Lassen Sie uns neu anfangen! 😊 Wie kann ich Ihnen helfen?",
+      "want_to_practice": "🎯 Möchten Sie es in der Praxis sehen?",
+      "want_to_test_shoes": "👟 Möchten Sie unsere Schuh-Anprobe testen?",
+      "need_tech_details": "🔧 Brauchen Sie mehr technische Details?",
+      "want_to_accelerate": "⚡ Möchten Sie den Prozess beschleunigen?",
+      "platform_not_listed": "🛒 Ist Ihre Plattform nicht in der Liste?",
+      "help_better": "💡 Um Ihnen besser zu helfen, möchten Sie wissen:",
+      "want_to_know_how": "📊 Möchten Sie wissen, wie wir Ihrem Geschäft helfen können?",
+      "want_more_cases": "📈 Möchten Sie mehr Erfolgsgeschichten sehen?",
+      "want_test_visit": "🔗 Möchten Sie es testen? Besuchen Sie unsere Virtual Fitting Room Sektion!",
+      "default_responses": [
+        "Interessant! Können Sie mir mehr darüber erzählen? 🤔",
+        "Hmm, ich bin mir darüber nicht sicher. Können Sie Ihre Frage umformulieren? 💭",
+        "Das ist eine gute Frage! Wie wäre es, wenn wir darüber sprechen, wie die virtuelle Umkleidekabine helfen kann? 🎯"
+      ]
+    },
+    "case_success": "**Erfolgsgeschichte:**",
+    "error_processing": "Entschuldigung, ich konnte diese Option nicht verarbeiten.",
+    "error_restart": "Ups, etwas ist schief gelaufen. Sollen wir neu anfangen?",
+    "info_not_found": "Information nicht gefunden.",
+    "element_not_found": "Element nicht gefunden:",
+    "trying_navigate": "Versuche zu navigieren zu:",
+    "element_found": "Element gefunden:",
+    "lead_qualified": "Lead qualifiziert:",
+    "keywords": {
+      "contact": [
+        "kontakt",
+        "telefon",
+        "email",
+        "sprechen",
+        "hilfe",
+        "unterstützung",
+        "kommunikation"
+      ],
+      "about": [
+        "über",
+        "unternehmen",
+        "geschichte",
+        "wer",
+        "informationen",
+        "firma",
+        "team"
+      ],
+      "howWork": [
+        "wie",
+        "funktioniert",
+        "arbeitet",
+        "prozess",
+        "erklärt",
+        "verstehen",
+        "methode"
+      ],
+      "vfr": [
+        "virtuell",
+        "umkleidekabine",
+        "anprobe",
+        "testen",
+        "größe",
+        "passform",
+        "technologie"
+      ],
+      "help": [
+        "hilfe",
+        "unterstützung",
+        "problem",
+        "frage",
+        "nicht verstehen",
+        "erklären"
+      ],
+      "greeting": [
+        "hallo",
+        "hi",
+        "guten tag",
+        "guten morgen",
+        "guten abend",
+        "hey"
+      ],
+      "purchase": [
+        "preis",
+        "wert",
+        "budget",
+        "beauftragen",
+        "demonstration",
+        "demo",
+        "mit verkauf sprechen",
+        "geschäftskontakt",
+        "pläne",
+        "wie viel kostet",
+        "anfordern",
+        "terminieren"
+      ],
+      "provador_virtual": [
+        "umkleidekabine",
+        "virtuell",
+        "größe",
+        "passform",
+        "maß"
+      ],
+      "como_funciona": [
+        "wie funktioniert",
+        "funktionsweise",
+        "wie benutzen",
+        "wie verwenden"
+      ],
+      "segmentos": [
+        "segment",
+        "bedient",
+        "typ",
+        "kategorie",
+        "kleidung",
+        "bekleidung"
+      ],
+      "calcados": [
+        "schuh",
+        "turnschuh",
+        "sandale",
+        "stiefel",
+        "pantoffel",
+        "fuß"
+      ],
+      "integracao": [
+        "integriert",
+        "installiert",
+        "implementiert",
+        "javascript",
+        "api",
+        "xml"
+      ],
+      "tempo_implantacao": [
+        "zeit",
+        "frist",
+        "implementierung",
+        "umsetzung",
+        "wie lange"
+      ],
+      "plataformas": [
+        "plattform",
+        "vtex",
+        "shopify",
+        "magento",
+        "nuvemshop",
+        "woocommerce"
+      ],
+      "cases": [
+        "fall",
+        "erfolg",
+        "kunde",
+        "ergebnis",
+        "lanidor",
+        "miik",
+        "bunnies",
+        "intimissimi",
+        "osklen"
+      ],
+      "contato": ["kontakt", "telefon", "email", "sprechen", "unterhalten"],
+      "sobre": ["über", "unternehmen", "geschichte", "wer", "sizebay"],
+      "saudacao": [
+        "hallo",
+        "hi",
+        "guten tag",
+        "guten abend",
+        "gute nacht",
+        "hey"
+      ],
+      "despedida": ["tschüss", "danke", "bis bald", "bye"],
+      "ajuda": [
+        "hilfe",
+        "unterstützung",
+        "problem",
+        "zweifel",
+        "nicht verstanden"
+      ]
+    }
   }
 }

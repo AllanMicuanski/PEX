@@ -129,5 +129,191 @@
         "answer": "Sizebay a une intégration avec toutes les principales plateformes du marché, y compris Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce et bien plus. Vérifiez la liste complète avec notre équipe."
       }
     ]
+  },
+  "chatbot": {
+    "greeting": "Bonjour ! Je suis l'assistant virtuel de Sizebay. Comment puis-je vous aider aujourd'hui ?",
+    "placeholder": "Tapez votre message...",
+    "send": "Envoyer",
+    "chat_support": "Chat de Support",
+    "online": "En ligne",
+    "open_chat": "Ouvrir chat",
+    "close_chat": "Fermer chat",
+    "redirecting": "🔗 Je vous redirige vers la section demandée...",
+    "greetings": {
+      "hello": "Bonjour ! 👋 Je suis l'assistant virtuel de Sizebay. Comment puis-je vous aider aujourd'hui ?",
+      "hi": "Salut ! 😊 En quoi puis-je vous être utile ? Je suis ici pour parler de notre cabine d'essayage virtuelle !",
+      "welcome": "Bienvenue ! 🎯 Comment puis-je vous aider à trouver la solution parfaite pour votre magasin ?"
+    },
+    "buttons": {
+      "what_is_vfr": "Qu'est-ce que la cabine d'essayage virtuelle ?",
+      "see_demo": "Voir démonstration",
+      "test_vfr": "Tester Cabine d'Essayage Virtuelle",
+      "open_vfr": "Ouvrir Cabine d'Essayage Virtuelle",
+      "see_measurements": "Voir Tableau des Tailles",
+      "talk_to_consultant": "Parler à un consultant",
+      "how_works_clothes": "Comment ça marche pour les vêtements ?",
+      "how_works_shoes": "Comment ça marche pour les chaussures ?",
+      "how_to_integrate": "Comment intégrer dans mon magasin ?",
+      "see_all_cases": "Voir tous les cas",
+      "request_demo": "Demander démonstration",
+      "request_custom_demo": "Demander démonstration personnalisée",
+      "see_platforms": "Voir plateformes compatibles",
+      "talk_to_tech": "Parler à l'équipe technique",
+      "how_long_takes": "Combien de temps ça prend ?",
+      "schedule_demo": "Programmer démonstration",
+      "see_native_platforms": "Voir plateformes natives",
+      "check_compatibility": "Vérifier compatibilité",
+      "see_custom_integration": "Voir intégration personnalisée",
+      "see_complete_cases": "Voir cas complets",
+      "go_to_contact": "Aller à la section Contact",
+      "read_about_us": "En savoir plus sur nous",
+      "see_values": "Voir nos valeurs",
+      "know_solution": "Connaître notre solution",
+      "talk_to_agent": "Oui, parler à un agent",
+      "reformulate_question": "Reformuler question",
+      "see_faq": "Voir questions fréquentes",
+      "provide_contact": "Fournir données de contact",
+      "see_contact_data": "Voir données de contact",
+      "see_online_demo": "Voir démonstration en ligne",
+      "know_cases": "Connaître cas de succès",
+      "know_history": "Connaître notre histoire",
+      "prices_and_demo": "Prix et démonstration",
+      "technical_integration": "Intégration technique"
+    },
+    "responses": {
+      "thank_you": "Merci d'avoir parlé avec moi ! 😊 Si vous avez besoin de quelque chose d'autre, je serai toujours ici. Bonne journée !",
+      "can_help": "Bien sûr ! Je suis ici pour aider. 🤝 Je peux vous aider avec :",
+      "unknown_intent": "Désolé, je n'ai pas encore réussi à comprendre votre question. 😅 Aimeriez-vous parler à l'un de nos agents ?",
+      "lets_restart": "Recommençons ! 😊 Comment puis-je vous aider ?",
+      "want_to_practice": "🎯 Voulez-vous le voir en pratique ?",
+      "want_to_test_shoes": "👟 Voulez-vous tester notre cabine d'essayage pour chaussures ?",
+      "need_tech_details": "🔧 Avez-vous besoin de plus de détails techniques ?",
+      "want_to_accelerate": "⚡ Voulez-vous accélérer le processus ?",
+      "platform_not_listed": "🛒 Votre plateforme n'est pas dans la liste ?",
+      "help_better": "💡 Pour mieux vous aider, aimeriez-vous savoir :",
+      "want_to_know_how": "📊 Voulez-vous savoir comment nous pouvons aider votre magasin ?",
+      "want_more_cases": "📈 Voulez-vous voir plus de cas de succès ?",
+      "lead_qualification": "Excellent ! 🎯 Je vais vous connecter avec notre équipe commerciale pour une démonstration personnalisée.\n\nPour commencer, quel est votre nom ?",
+      "nice_to_meet": "Enchanté de vous rencontrer, {name} ! 😊\n\nQuel est votre meilleur email de contact ?",
+      "perfect": "Parfait ! Et quel est votre téléphone pour programmer la démonstration ?",
+      "last_question": "Dernière question : Quel type de magasin avez-vous ? (Ex : mode féminine, chaussures, mode enfant, etc.)",
+      "excellent": "Excellent, {name} ! ✅\n\nNous avons reçu vos données :\n📧 {email}\n📱 {phone}\n🏪 {storeType}\n\nL'un de nos consultants vous contactera bientôt pour programmer votre démonstration gratuite et discuter des plans idéaux pour votre magasin.\n\nMerci ! 🚀",
+      "understand_human_contact": "Je comprends ! 👨‍💼 Pour parler à notre équipe, j'ai besoin de quelques informations :",
+      "contact_forms": "📞 **Formes de Contact :**\n\n• {email}\n• {site}\n• Démonstration : {store}\n\n💬 Ou continuez à parler avec moi ici dans le chat !",
+      "about_sizebay": "🚀 **À propos de Sizebay :**\n\n{history1}\n\n{history2}\n\n🌍 {global}",
+      "our_cases": "🏆 **Nos Cas de Succès :**\n\n",
+      "frequent_questions": "❓ **Questions Fréquentes :**\n\n",
+      "which_interests": "\n💡 Laquelle de ces questions vous intéresse le plus ?",
+      "our_values": "💎 **Nos Valeurs :**\n\n• {value1}\n• {value2}\n• {value3}\n• {value4}\n• {value5}",
+      "default_responses": [
+        "Intéressant ! Pouvez-vous m'en dire plus à ce sujet ? 🤔",
+        "Hmm, je ne suis pas sûr à ce sujet. Pouvez-vous reformuler votre question ? 💭",
+        "C'est une bonne question ! Que diriez-vous de parler de comment la cabine d'essayage virtuelle peut aider ? 🎯"
+      ],
+      "want_test_visit": "🔗 Voulez-vous tester ? Visitez notre section Cabine d'Essayage Virtuelle !"
+    },
+    "case_success": "**Cas de Succès :**",
+    "error_processing": "Désolé, je n'ai pas pu traiter cette option.",
+    "error_restart": "Oops, quelque chose s'est mal passé. Recommençons ?",
+    "info_not_found": "Information non trouvée.",
+    "element_not_found": "Élément non trouvé :",
+    "trying_navigate": "Tentative de navigation vers :",
+    "element_found": "Élément trouvé :",
+    "lead_qualified": "Lead qualifié :",
+    "keywords": {
+      "purchase": [
+        "prix",
+        "valeur",
+        "budget",
+        "embaucher",
+        "démonstration",
+        "démo",
+        "parler aux ventes",
+        "contact commercial",
+        "plans",
+        "combien ça coûte",
+        "demander",
+        "programmer"
+      ],
+      "provador_virtual": [
+        "cabine d'essayage",
+        "virtuelle",
+        "size",
+        "fit",
+        "taille",
+        "mesure"
+      ],
+      "como_funciona": [
+        "comment ça marche",
+        "fonctionnement",
+        "comment utiliser",
+        "comment employer"
+      ],
+      "segmentos": [
+        "segment",
+        "sert",
+        "type",
+        "catégorie",
+        "vêtements",
+        "habits"
+      ],
+      "calcados": [
+        "chaussures",
+        "chaussure",
+        "basket",
+        "sandale",
+        "botte",
+        "pantoufle",
+        "pied"
+      ],
+      "integracao": [
+        "intègre",
+        "installe",
+        "implémente",
+        "javascript",
+        "api",
+        "xml"
+      ],
+      "tempo_implantacao": [
+        "temps",
+        "délai",
+        "implémentation",
+        "déploiement",
+        "combien de temps"
+      ],
+      "plataformas": [
+        "plateforme",
+        "vtex",
+        "shopify",
+        "magento",
+        "nuvemshop",
+        "woocommerce"
+      ],
+      "cases": [
+        "cas",
+        "succès",
+        "client",
+        "résultat",
+        "lanidor",
+        "miik",
+        "bunnies",
+        "intimissimi",
+        "osklen"
+      ],
+      "contato": ["contact", "téléphone", "email", "parler", "converser"],
+      "sobre": ["à propos", "entreprise", "histoire", "qui", "sizebay"],
+      "saudacao": [
+        "bonjour",
+        "salut",
+        "bon matin",
+        "bon après-midi",
+        "bonsoir",
+        "hey"
+      ],
+      "despedida": ["au revoir", "merci", "salut", "à bientôt", "adieu"],
+      "ajuda": ["aide", "support", "problème", "question", "ne comprends pas"],
+      "infantil": ["enfant", "enfants", "kids", "bébé"],
+      "intimo": ["intime", "lingerie", "sous-vêtements", "soutien-gorge"]
+    }
   }
 }

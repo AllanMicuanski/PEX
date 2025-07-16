@@ -129,5 +129,191 @@
         "answer": "Sizebay ha integrazione con tutte le principali piattaforme del mercato, incluse Vtex, Nuvemshop, Shopify, Magento, Salesforce, Tray, Loja Integrada, Woocommerce e molto altro. Verifica l'elenco completo con il nostro team."
       }
     ]
+  },
+  "chatbot": {
+    "greeting": "Ciao! Sono l'assistente virtuale di Sizebay. Come posso aiutarti oggi?",
+    "placeholder": "Scrivi il tuo messaggio...",
+    "send": "Invia",
+    "chat_support": "Chat di Supporto",
+    "online": "Online",
+    "open_chat": "Apri chat",
+    "close_chat": "Chiudi chat",
+    "redirecting": "🔗 Ti sto reindirizzando alla sezione richiesta...",
+    "greetings": {
+      "hello": "Ciao! 👋 Sono l'assistente virtuale di Sizebay. Come posso aiutarti oggi?",
+      "hi": "Ciao! 😊 In cosa posso esserti utile? Sono qui per parlare del nostro camerino virtuale!",
+      "welcome": "Benvenuto! 🎯 Come posso aiutarti a trovare la soluzione perfetta per il tuo negozio?"
+    },
+    "buttons": {
+      "what_is_vfr": "Cos'è il camerino virtuale?",
+      "see_demo": "Vedere dimostrazione",
+      "test_vfr": "Testare Camerino Virtuale",
+      "open_vfr": "Aprire Camerino Virtuale",
+      "see_measurements": "Vedere Tabella Taglie",
+      "talk_to_consultant": "Parlare con consulente",
+      "how_works_clothes": "Come funziona per i vestiti?",
+      "how_works_shoes": "Come funziona per le scarpe?",
+      "how_to_integrate": "Come integrare nel mio negozio?",
+      "see_all_cases": "Vedere tutti i casi",
+      "request_demo": "Richiedere dimostrazione",
+      "request_custom_demo": "Richiedere dimostrazione personalizzata",
+      "see_platforms": "Vedere piattaforme compatibili",
+      "talk_to_tech": "Parlare con team tecnico",
+      "how_long_takes": "Quanto tempo ci vuole?",
+      "schedule_demo": "Programmare dimostrazione",
+      "see_native_platforms": "Vedere piattaforme native",
+      "check_compatibility": "Verificare compatibilità",
+      "see_custom_integration": "Vedere integrazione personalizzata",
+      "see_complete_cases": "Vedere casi completi",
+      "go_to_contact": "Andare alla sezione Contatto",
+      "read_about_us": "Leggi di più su di noi",
+      "see_values": "Vedere i nostri valori",
+      "know_solution": "Conoscere la nostra soluzione",
+      "talk_to_agent": "Sì, parlare con agente",
+      "reformulate_question": "Riformulare domanda",
+      "see_faq": "Vedere domande frequenti",
+      "provide_contact": "Fornire dati di contatto",
+      "see_contact_data": "Vedere dati di contatto",
+      "see_online_demo": "Vedere dimostrazione online",
+      "know_cases": "Conoscere casi di successo",
+      "know_history": "Conoscere la nostra storia",
+      "prices_and_demo": "Prezzi e dimostrazione",
+      "technical_integration": "Integrazione tecnica"
+    },
+    "responses": {
+      "thank_you": "Grazie per aver parlato con me! 😊 Se hai bisogno di qualcos'altro, sarò sempre qui. Buona giornata!",
+      "can_help": "Certo! Sono qui per aiutare. 🤝 Posso aiutarti con:",
+      "unknown_intent": "Mi dispiace, non sono ancora riuscito a capire la tua domanda. 😅 Vorresti parlare con uno dei nostri agenti?",
+      "lets_restart": "Ricominciamo! 😊 Come posso aiutarti?",
+      "want_to_practice": "🎯 Vuoi vederlo in pratica?",
+      "want_to_test_shoes": "👟 Vuoi testare il nostro camerino per scarpe?",
+      "need_tech_details": "🔧 Hai bisogno di più dettagli tecnici?",
+      "want_to_accelerate": "⚡ Vuoi accelerare il processo?",
+      "platform_not_listed": "🛒 La tua piattaforma non è nell'elenco?",
+      "help_better": "💡 Per aiutarti meglio, vorresti sapere:",
+      "want_to_know_how": "📊 Vuoi sapere come possiamo aiutare il tuo negozio?",
+      "want_more_cases": "📈 Vuoi vedere più casi di successo?",
+      "lead_qualification": "Ottimo! 🎯 Ti metterò in contatto con il nostro team commerciale per una dimostrazione personalizzata.\n\nPer iniziare, qual è il tuo nome?",
+      "nice_to_meet": "Piacere di conoscerti, {name}! 😊\n\nQual è la tua migliore email di contatto?",
+      "perfect": "Perfetto! E qual è il tuo telefono per programmare la dimostrazione?",
+      "last_question": "Ultima domanda: Che tipo di negozio hai? (Es: moda femminile, scarpe, moda per bambini, ecc.)",
+      "excellent": "Eccellente, {name}! ✅\n\nAbbiamo ricevuto i tuoi dati:\n📧 {email}\n📱 {phone}\n🏪 {storeType}\n\nUno dei nostri consulenti ti contatterà presto per programmare la tua dimostrazione gratuita e discutere i piani ideali per il tuo negozio.\n\nGrazie! 🚀",
+      "understand_human_contact": "Capisco! 👨‍💼 Per parlare con il nostro team, ho bisogno di alcune informazioni:",
+      "contact_forms": "📞 **Forme di Contatto:**\n\n• {email}\n• {site}\n• Dimostrazione: {store}\n\n💬 O continua a parlare con me qui nella chat!",
+      "about_sizebay": "🚀 **Su Sizebay:**\n\n{history1}\n\n{history2}\n\n🌍 {global}",
+      "our_cases": "🏆 **I Nostri Casi di Successo:**\n\n",
+      "frequent_questions": "❓ **Domande Frequenti:**\n\n",
+      "which_interests": "\n💡 Quale di queste domande ti interessa di più?",
+      "our_values": "💎 **I Nostri Valori:**\n\n• {value1}\n• {value2}\n• {value3}\n• {value4}\n• {value5}",
+      "default_responses": [
+        "Interessante! Puoi dirmi di più al riguardo? 🤔",
+        "Hmm, non sono sicuro al riguardo. Puoi riformulare la tua domanda? 💭",
+        "Questa è una buona domanda! Che ne dici se parliamo di come il camerino virtuale può aiutare? 🎯"
+      ],
+      "want_test_visit": "🔗 Vuoi testare? Visita la nostra sezione Camerino Virtuale!"
+    },
+    "case_success": "**Caso di Successo:**",
+    "error_processing": "Mi dispiace, non sono riuscito a elaborare quell'opzione.",
+    "error_restart": "Ops, qualcosa è andato storto. Ricominciamo?",
+    "info_not_found": "Informazione non trovata.",
+    "element_not_found": "Elemento non trovato:",
+    "trying_navigate": "Tentando di navigare verso:",
+    "element_found": "Elemento trovato:",
+    "lead_qualified": "Lead qualificato:",
+    "keywords": {
+      "purchase": [
+        "prezzo",
+        "valore",
+        "budget",
+        "assumere",
+        "dimostrazione",
+        "demo",
+        "parlare con vendite",
+        "contatto commerciale",
+        "piani",
+        "quanto costa",
+        "richiedere",
+        "programmare"
+      ],
+      "provador_virtual": [
+        "camerino",
+        "virtuale",
+        "size",
+        "fit",
+        "taglia",
+        "misura"
+      ],
+      "como_funciona": [
+        "come funziona",
+        "funzionamento",
+        "come usare",
+        "come utilizzare"
+      ],
+      "segmentos": [
+        "segmento",
+        "serve",
+        "tipo",
+        "categoria",
+        "abbigliamento",
+        "vestiti"
+      ],
+      "calcados": [
+        "calzature",
+        "scarpa",
+        "sneaker",
+        "sandalo",
+        "stivale",
+        "ciabatta",
+        "piede"
+      ],
+      "integracao": [
+        "integra",
+        "installa",
+        "implementa",
+        "javascript",
+        "api",
+        "xml"
+      ],
+      "tempo_implantacao": [
+        "tempo",
+        "scadenza",
+        "implementazione",
+        "distribuzione",
+        "quanto tempo"
+      ],
+      "plataformas": [
+        "piattaforma",
+        "vtex",
+        "shopify",
+        "magento",
+        "nuvemshop",
+        "woocommerce"
+      ],
+      "cases": [
+        "caso",
+        "successo",
+        "cliente",
+        "risultato",
+        "lanidor",
+        "miik",
+        "bunnies",
+        "intimissimi",
+        "osklen"
+      ],
+      "contato": ["contatto", "telefono", "email", "parlare", "conversare"],
+      "sobre": ["su", "azienda", "storia", "chi", "sizebay"],
+      "saudacao": [
+        "ciao",
+        "salve",
+        "buongiorno",
+        "buon pomeriggio",
+        "buonasera",
+        "hey"
+      ],
+      "despedida": ["ciao", "grazie", "arrivederci", "a presto", "addio"],
+      "ajuda": ["aiuto", "supporto", "problema", "domanda", "non capisco"],
+      "infantil": ["infantile", "bambini", "kids", "bambino"],
+      "intimo": ["intimo", "lingerie", "biancheria intima", "reggiseno"]
+    }
   }
 }
