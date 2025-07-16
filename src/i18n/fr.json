@@ -84,5 +84,30 @@
     "btnChart": "Tableau des tailles",
     "modalTry": "Cabine d'essayage virtuelle",
     "modalChart": "Tableau des tailles"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "questions": [
+      {
+        "question": "Comment fonctionne le système de mesure de Sizebay ?",
+        "answer": "Notre système utilise l'intelligence artificielle pour analyser les mesures de l'utilisateur et recommander la taille idéale basée sur l'historique des données de produits similaires."
+      },
+      {
+        "question": "Sizebay fonctionne-t-il pour tous les types de produits ?",
+        "answer": "Oui ! Nous offrons actuellement des solutions pour les vêtements, chaussures et accessoires, avec des algorithmes spécifiques pour chaque catégorie de produit."
+      },
+      {
+        "question": "Comment puis-je intégrer Sizebay dans mon e-commerce ?",
+        "answer": "L'intégration est simple et rapide. Notre équipe technique vous accompagne tout au long du processus, de l'implémentation à la formation de l'équipe."
+      },
+      {
+        "question": "Quelle est la précision des recommandations de taille ?",
+        "answer": "Notre technologie a plus de 95% de précision dans les recommandations, réduisant significativement les échanges et retours."
+      },
+      {
+        "question": "Le système fonctionne-t-il sur les appareils mobiles ?",
+        "answer": "Oui ! Sizebay est entièrement responsive et fonctionne parfaitement sur smartphones, tablettes et ordinateurs de bureau."
+      }
+    ]
   }
 }

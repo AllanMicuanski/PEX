@@ -9,6 +9,7 @@ import HowWork from './components/howWork/HowWork';
 import Clients from './components/clients/Clients';
 import Contact from './components/contact/Contact';
 import Vfr from './components/vfr/Vfr';
+import Faq from './components/faq/Faq';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <TapeLeft />
         <Vfr/>
         <Contact />
+        <Faq />
       </main>
       <Footer />
     </div>

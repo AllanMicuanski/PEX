@@ -84,5 +84,30 @@
     "btnChart": "Größentabelle",
     "modalTry": "Virtuelle Umkleidekabine",
     "modalChart": "Größentabelle"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Wie funktioniert das Messsystem von Sizebay?",
+        "answer": "Unser System nutzt künstliche Intelligenz, um die Maße des Benutzers zu analysieren und die ideale Größe basierend auf historischen Daten ähnlicher Produkte zu empfehlen."
+      },
+      {
+        "question": "Funktioniert Sizebay für alle Produkttypen?",
+        "answer": "Ja! Wir bieten derzeit Lösungen für Kleidung, Schuhe und Accessoires mit spezifischen Algorithmen für jede Produktkategorie."
+      },
+      {
+        "question": "Wie kann ich Sizebay in meinen E-Commerce integrieren?",
+        "answer": "Die Integration ist einfach und schnell. Unser technisches Team begleitet Sie durch den gesamten Prozess, von der Implementierung bis zur Teamschulung."
+      },
+      {
+        "question": "Wie genau sind die Größenempfehlungen?",
+        "answer": "Unsere Technologie hat über 95% Genauigkeit bei Empfehlungen und reduziert Umtausch und Rücksendungen erheblich."
+      },
+      {
+        "question": "Funktioniert das System auf mobilen Geräten?",
+        "answer": "Ja! Sizebay ist vollständig responsiv und funktioniert perfekt auf Smartphones, Tablets und Desktops."
+      }
+    ]
   }
 }

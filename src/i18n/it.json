@@ -84,5 +84,30 @@
     "btnChart": "Tabella Taglie",
     "modalTry": "Camerino Virtuale",
     "modalChart": "Tabella Taglie"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "questions": [
+      {
+        "question": "Come funziona il sistema di misurazione di Sizebay?",
+        "answer": "Il nostro sistema utilizza l'intelligenza artificiale per analizzare le misure dell'utente e raccomandare la taglia ideale basandosi sui dati storici di prodotti simili."
+      },
+      {
+        "question": "Sizebay funziona per tutti i tipi di prodotti?",
+        "answer": "Sì! Attualmente offriamo soluzioni per abbigliamento, calzature e accessori, con algoritmi specifici per ogni categoria di prodotto."
+      },
+      {
+        "question": "Come posso integrare Sizebay nel mio e-commerce?",
+        "answer": "L'integrazione è semplice e veloce. Il nostro team tecnico ti accompagna durante tutto il processo, dall'implementazione alla formazione del team."
+      },
+      {
+        "question": "Qual è la precisione delle raccomandazioni di taglia?",
+        "answer": "La nostra tecnologia ha oltre il 95% di precisione nelle raccomandazioni, riducendo significativamente cambi e resi."
+      },
+      {
+        "question": "Il sistema funziona su dispositivi mobili?",
+        "answer": "Sì! Sizebay è completamente responsivo e funziona perfettamente su smartphone, tablet e desktop."
+      }
+    ]
   }
 }
