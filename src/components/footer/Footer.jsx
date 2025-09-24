@@ -18,6 +18,7 @@ function Footer() {
 
   // Custom dropdown state
   const [open, setOpen] = useState(false);
+  const [figmaModalOpen, setFigmaModalOpen] = useState(false);
   const dropdownRef = useRef(null);
 
   const handleDropdownToggle = () => setOpen((prev) => !prev);
@@ -86,6 +87,25 @@ function Footer() {
                 <path d="M12 .297a12 12 0 00-3.79 23.41c.6.11.82-.26.82-.58v-2.18c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 00-1.33-1.76c-1.09-.75.08-.74.08-.74a2.52 2.52 0 011.84 1.23 2.56 2.56 0 003.49 1 2.57 2.57 0 01.77-1.61c-2.67-.3-5.47-1.33-5.47-5.91a4.6 4.6 0 011.23-3.2 4.3 4.3 0 01.12-3.16s1-.32 3.3 1.23a11.4 11.4 0 016 0c2.3-1.55 3.3-1.23 3.3-1.23a4.3 4.3 0 01.12 3.16 4.6 4.6 0 011.23 3.2c0 4.59-2.8 5.6-5.48 5.89a2.87 2.87 0 01.82 2.22v3.3c0 .32.22.69.83.57A12 12 0 0012 .297z" />
               </svg>
             </a>
+            <button
+              className="figma-button"
+              onClick={() => setFigmaModalOpen(true)}
+              aria-label="Ver Design no Figma"
+            >
+              <svg
+                width="24"
+                height="24"
+                fill="#BF512B"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M8 24c2.208 0 4-1.792 4-4v-4H8c-2.208 0-4 1.792-4 4s1.792 4 4 4z"/>
+                <path d="M4 12c0-2.208 1.792-4 4-4h4v8H8c-2.208 0-4-1.792-4-4z"/>
+                <path d="M4 4c0-2.208 1.792-4 4-4h4v8H8C5.792 8 4 6.208 4 4z"/>
+                <path d="M12 0h4c2.208 0 4 1.792 4 4s-1.792 4-4 4h-4V0z"/>
+                <path d="M20 12c0 2.208-1.792 4-4 4s-4-1.792-4-4 1.792-4 4-4 4 1.792 4 4z"/>
+              </svg>
+            </button>
           </div>
           <div className="footer-lang-dropdown" ref={dropdownRef}>
             <button
@@ -123,8 +143,51 @@ function Footer() {
         </div>
       </div>
       <p className="footer-powered">{i18n.t('footer.powered')}</p>
+
+      {/* Modal do Figma */}
+      {figmaModalOpen && (
+        <div className="figma-modal-overlay" onClick={() => setFigmaModalOpen(false)}>
+          <div className="figma-modal-content" onClick={e => e.stopPropagation()}>
+            <div className="figma-modal-header">
+              <h3>🎨 Design System - Sizebay PEX</h3>
+              <button 
+                className="figma-modal-close"
+                onClick={() => setFigmaModalOpen(false)}
+                aria-label="Fechar modal"
+              >
+                ×
+              </button>
+            </div>
+            <div className="figma-iframe-container">
+              <iframe 
+                style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} 
+                width="100%" 
+                height="100%" 
+                src="https://embed.figma.com/design/uq29ZOac1Kc8sgyDlxZfpF/WireFrame---PEX?node-id=4-6&embed-host=share" 
+                allowFullScreen
+                title="Figma Design System - Sizebay PEX"
+              />
+            </div>
+            <div className="figma-modal-footer">
+              <p className="figma-credits">
+                🎨 <strong>Design by:</strong> 
+                <a 
+                  href="https://github.com/Jlvieira0909" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="figma-designer-link"
+                >
+                  @Jlvieira0909
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </footer>
   );
 }
+
+
 
 export default Footer;
