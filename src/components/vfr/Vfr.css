@@ -1,5 +1,5 @@
 .vfr-section {
-  background-color: #d2ecff;
+  background-color: var(--bg-light);
   margin: 4rem auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Outfit", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 .vfr-title {
@@ -31,7 +31,7 @@
 }
 
 .product-card {
-  background-color: #fff;
+  background-color: var(--bg-card);
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -54,12 +54,12 @@
 .product-card h3 {
   font-size: 1.5rem; /* aumentado de 1.4rem */
   margin-bottom: 0.5rem;
-  color: #333;
+  color: var(--text-dark);
 }
 
 .product-subtitle {
   font-size: 1rem; /* aumentado de 0.95rem */
-  color: #666;
+  color: var(--color-gray-light);
   margin-bottom: 0.5rem;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .size-list li {
-  background-color: #f1f1f1;
+  background-color: var(--color-gray-lighter);
   padding: 0.4rem 0.8rem;
   border-radius: 0.4rem;
   font-weight: 500;
@@ -82,13 +82,13 @@
 }
 
 .size-list li:hover {
-  background-color: #bf512b;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .try-button {
-  background-color: #131313;
-  color: white;
+  background-color: var(--color-dark);
+  color: var(--color-white);
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 0.4rem;
@@ -98,7 +98,7 @@
 }
 
 .try-button:hover {
-  background-color: #bf512b;
+  background-color: var(--color-primary);
 }
 
 @media (max-width: 768px) {

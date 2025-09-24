@@ -10,7 +10,7 @@ body {
 /* Importação das fontes */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
 
-/* Sistema de tipografia padronizado */
+/* Sistema de tipografia e cores padronizados */
 :root {
   /* Família de fontes */
   --font-primary: "KassiClassic", "Arial Black", sans-serif; /* Para títulos */
@@ -28,6 +28,30 @@ body {
   --text-3xl: 1.875rem; /* 30px */
   --text-4xl: 2.25rem; /* 36px */
   --text-5xl: 3rem; /* 48px */
+
+  /* Cores primárias do sistema */
+  --color-primary: #bf512b;
+  --color-primary-hover: #f05a28;
+  --color-dark: #131313;
+  --color-dark-secondary: #232323;
+  --color-light-blue: #d2ecff;
+  --color-light-gray: #d1d5db;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #333333;
+  --color-gray-light: #666666;
+  --color-gray-lighter: #f1f1f1;
+
+  /* Background colors */
+  --bg-primary: var(--color-dark);
+  --bg-secondary: var(--color-primary);
+  --bg-light: var(--color-light-blue);
+  --bg-card: var(--color-white);
+
+  /* Text colors */
+  --text-primary: var(--color-light-blue);
+  --text-secondary: var(--color-light-gray);
+  --text-dark: var(--color-gray);
 }
 
 /* Aplicação das fontes base */

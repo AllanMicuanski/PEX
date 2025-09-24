@@ -1,5 +1,5 @@
 .contact-section {
-  background-color: #131313;
+  background-color: var(--bg-primary);
   margin: 4rem auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Outfit", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 .contact-container {
@@ -31,7 +31,7 @@
 }
 
 .contact-container a.contact-item h3 {
-  color: #d2ecff;
+  color: var(--text-primary);
 }
 
 .contact-container a.contact-item:hover {
@@ -42,7 +42,7 @@
   margin-bottom: 1rem;
   width: 48px;
   height: 48px;
-  background-color: #222;
+  background-color: var(--color-dark-secondary);
   border-radius: 50%;
   padding: 12px;
   box-sizing: content-box;
@@ -51,7 +51,7 @@
 .contact-item h3 {
   font-size: 1.4rem; /* aumentado de 1.25rem */
   font-weight: 600;
-  color: #d2ecff;
+  color: var(--text-primary);
 }
 
 @media (max-width: 768px) {

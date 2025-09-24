@@ -3,7 +3,7 @@
   margin: 0 auto;
   border-radius: 1rem;
   padding: 3rem 2rem;
-  background-color: #bf512b;
+  background-color: var(--bg-secondary);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,10 +19,10 @@
   letter-spacing: 2px;
   text-align: center;
   font-family: var(--font-primary);
-  color: #d2ecff;
+  color: var(--text-primary);
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
-  box-shadow: 4px 4px 10px 2px #d2ecff;
+  box-shadow: 4px 4px 10px 2px var(--text-primary);
 }
 
 .clients-swiper {
@@ -41,8 +41,8 @@
 }
 
 .client-card {
-  background: #fff;
-  color: #333;
+  background: var(--bg-card);
+  color: var(--text-dark);
   border-radius: 1rem;
   padding: 1.5rem 1.2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -75,7 +75,7 @@
 .client-name {
   font-size: var(--text-2xl); /* padronizado */
   font-weight: 700;
-  color: #000;
+  color: var(--color-black);
   font-family: var(--font-primary);
   margin-bottom: 0.8rem;
 }
@@ -85,7 +85,7 @@
   font-weight: 500;
   font-size: var(--text-xl); /* padronizado */
   line-height: 1.6;
-  color: #333;
+  color: var(--text-dark);
   padding: 0 0.5rem;
   flex-grow: 1;
 }
@@ -93,7 +93,7 @@
 .client-card .client-link {
   margin-top: auto;
   font-weight: bold;
-  color: #bf512b;
+  color: var(--color-primary);
   text-decoration: underline;
   font-size: var(--text-lg); /* padronizado */
   font-family: var(--font-secondary);
@@ -101,7 +101,7 @@
 }
 
 .client-card:hover .client-link {
-  color: #e85f36;
+  color: var(--color-primary-hover);
 }
 
 @media (max-width: 480px) {

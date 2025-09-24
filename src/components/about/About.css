@@ -1,5 +1,5 @@
 .about-section {
-  background-color: #131313;
+  background-color: var(--bg-primary);
   margin: 4rem auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -22,10 +22,10 @@
   font-weight: 100;
   text-transform: uppercase;
   margin: 0 auto 2rem auto;
-  box-shadow: 4px 4px 10px 2px #d2ecff;
+  box-shadow: 4px 4px 10px 2px var(--text-primary);
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
-  color: #d2ecff;
+  color: var(--text-primary);
   max-width: max-content;
   display: block;
   text-align: center;
@@ -39,13 +39,13 @@
 .about-block h3 {
   font-size: var(--text-2xl); /* padronizado */
   margin-bottom: 0.5rem;
-  color: #d2ecff;
+  color: var(--text-primary);
   font-family: var(--font-primary);
 }
 
 .about-block p,
 .about-block li {
-  color: #d1d5db;
+  color: var(--text-secondary);
   font-size: var(--text-lg); /* padronizado */
   line-height: 1.6;
 }
@@ -57,7 +57,7 @@
 }
 
 .about-contact a {
-  color: #d2ecff;
+  color: var(--text-primary);
   text-decoration: underline;
 }
 
