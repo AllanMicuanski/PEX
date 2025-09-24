@@ -215,6 +215,19 @@ function Footer() {
                 title={`Figma Design - ${figmaModal.title}`}
               />
             </div>
+            <div className="figma-modal-footer">
+              <p className="figma-credits">
+                🎨 <strong>Design by:</strong> 
+                <a 
+                  href="https://github.com/Jlvieira0909" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="figma-designer-link"
+                >
+                  @Jlvieira0909
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       )}

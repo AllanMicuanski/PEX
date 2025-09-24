@@ -309,6 +309,36 @@
   border: none;
 }
 
+.figma-modal-footer {
+  padding: 15px 25px;
+  border-top: 1px solid #eee;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+}
+
+.figma-credits {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.figma-designer-link {
+  color: #bf512b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.figma-designer-link:hover {
+  color: #f05a28;
+  text-decoration: underline;
+}
+
 @media (max-width: 760px) {
   .footer-socials-lang {
     justify-content: center;
@@ -351,5 +381,16 @@
     font-size: 1.5rem;
     width: 35px;
     height: 35px;
+  }
+
+  .figma-modal-footer {
+    padding: 12px 20px;
+  }
+
+  .figma-credits {
+    font-size: 0.8rem;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
   }
 }
