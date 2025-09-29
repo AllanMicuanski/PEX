@@ -52,9 +52,7 @@ _Acesse o wireframe e design system completo do projeto no Figma_
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-## 👥 Autores
-
-- **Allan Micuanski** - Desenvolvimento e Internacionalização
+## 👥 Powered by Allan Micuanski
 
 ---
 
